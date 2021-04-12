@@ -1,2 +1,207 @@
 body {
-    background-color: yellow;
+    font-family:'Montserrat', sans-serif , normal;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+ section {
+     background-color: #FED100;
+     position: fixed;
+     width: 100%;
+     height: 40.625rem;
+     left: 0px;
+     top: 0px;
+ }
+ .header-list{
+     position: absolute;
+     left: 19.1875rem;
+     top: 1.823rem;
+     line-height: 2.4375rem;
+     font-size: 1.875rem;
+     font-weight: 600;
+ }
+ .header-list-tel {
+     position: absolute;
+     left: 88.3125rem;
+     top: 3.323rem;
+     font-weight: 600;
+     border-bottom: 0.0625rem solid #333333;
+     line-height: 1.8125rem;
+     font-size: 1.5rem;
+
+ }.header-list-tel:hover{
+    color: blue;
+    cursor: pointer;
+       transition: 0.5s;
+       background-color: #3d9be9;
+   }
+.header-text {
+     position: absolute;
+     left: 18.9375rem;
+     top: 5.625rem;
+     font-weight: bold;
+     font-size: 4.375rem;
+     line-height: 126.9%;
+ }
+ .nav-menu {
+
+     position: absolute;
+     left: 42.5rem;
+     top: 2.9375rem;
+     Line-height: 1.375rem;
+     display: flex;
+     z-index: 10;
+ }
+ul li {
+    display: inline;
+    list-style: none;
+    margin: 1.375rem;
+}
+ul li a:hover{
+    color: #333333;
+}
+.nav-form {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.375rem;
+    color:  #333333;
+
+
+}
+#header-list  {
+    position: absolute;
+    left: 19.1875rem;
+    top: 18.6875rem;
+    font-size: 1.8125rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+    font-style: normal;
+
+}
+.man-human {
+    position: absolute;
+    left: 57.5rem;
+    top: 2.625rem;
+    z-index: 1;
+}
+.car-auto {
+    position: absolute;
+    left: 76.125rem;
+    top: 11.25rem;
+    filter: blur(0.3125rem);
+    z-index: 0;
+}
+.man-moove {
+    position: absolute;
+    left: 65.4825rem;
+    top: 35.3181rem;
+    z-index: 3;
+    color: color: #121611;
+}
+.phone{
+    position: absolute;
+    left: 93.875rem;
+    top: 32.3125rem;
+    z-index: 3;
+}
+.eclipse-one {
+    position: absolute;
+    left: 92.375rem;
+    top: 30.75rem;
+    background: rgba(61, 155, 233, 0.8);
+    border-radius: 100%;
+}
+.phone{
+    transition: 0.5s;
+
+}
+.eclipse2 {
+    position: absolute;
+    left: 91.25rem;
+    top: 29.625rem;
+}
+.button-one{
+    position: absolute;
+    width: 19rem;
+    height: 3.75rem;
+    left: 13.4375rem;
+    top: 24.25rem;
+}
+.button {
+    color: #f2f2f2;
+    padding: 1rem 6rem;
+    font-size: 1.5rem;
+    border: none;
+    position: absolute;
+
+#btn button:hover{
+    background-color: blue;
+
+}
+}
+#btn{
+    color: #F2F2F2;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    z-index: 1;
+    background-color: #FF352B;
+    border-color: red;
+    cursor: pointer;
+    position: absolute;
+    width: 19rem;
+    height: 3.75rem;
+    border-width: 0.111rem;
+
+
+}
+.btn-border-block {
+    width: 19rem;
+    height: 3.75rem;
+    left: 20rem;
+    top: 25.9375rem;
+    border: 0.125rem solid #F2F2F2;
+    box-sizing: border-box;
+    position: absolute;
+}
+.truck-info{
+    position: absolute;
+    left: 19.1875rem;
+    top:32.75rem;
+
+}
+#truck-info{
+    position: absolute;
+    top: 0.0625rem;
+    left: 3.5rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1,3125rem;
+}
+.box-info{
+    position: absolute;
+    left: 31.25rem;
+    top: 32.7569rem;
+}
+.coin-info{
+    position: absolute;
+    left: 41.625rem;
+    right: 63.18%;
+    top: 32.765rem;
+}
+@media screen and (max-width:320px) {
+    .section {
+        width: 320px;
+        height: 599px;
+    }
+    body{
+        width: 20%;
+        height: 20%;
+    }
+}
