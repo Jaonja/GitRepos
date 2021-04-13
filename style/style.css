@@ -1,26 +1,33 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: initial;
+}
 body {
     font-family:'Montserrat', sans-serif , normal;
     padding: 0px;
     margin: 0px;
     width: 100%;
+    overflow: auto
 }
 
 a{
     text-decoration: none;
     color: #000;
 }
- section {
+.section-first {
      background-color: #FED100;
-     position: fixed;
-     width: 100%;
-     height: 40.625rem;
-     left: 0px;
-     top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    left: 0px;
+    top: 0px;
  }
  .header-list{
      position: absolute;
      left: 19.1875rem;
-     top: 1.823rem;
+     top: 2.5375rem;
      line-height: 2.4375rem;
      font-size: 1.875rem;
      font-weight: 600;
@@ -28,7 +35,7 @@ a{
  .header-list-tel {
      position: absolute;
      left: 88.3125rem;
-     top: 3.323rem;
+     top: 2.823rem;
      font-weight: 600;
      border-bottom: 0.0625rem solid #333333;
      line-height: 1.8125rem;
@@ -43,7 +50,7 @@ a{
 .header-text {
      position: absolute;
      left: 18.9375rem;
-     top: 5.625rem;
+     top: 8.625rem;
      font-weight: bold;
      font-size: 4.375rem;
      line-height: 126.9%;
@@ -51,7 +58,7 @@ a{
  .nav-menu {
 
      position: absolute;
-     left: 42.5rem;
+     left: 44.5rem;
      top: 2.9375rem;
      Line-height: 1.375rem;
      display: flex;
@@ -76,7 +83,7 @@ ul li a:hover{
 #header-list  {
     position: absolute;
     left: 19.1875rem;
-    top: 18.6875rem;
+    top: 20.6875rem;
     font-size: 1.8125rem;
     line-height: 2.25rem;
     font-weight: 600;
@@ -163,8 +170,8 @@ ul li a:hover{
 .btn-border-block {
     width: 19rem;
     height: 3.75rem;
-    left: 20rem;
-    top: 25.9375rem;
+    left: 20.989rem;
+    top: 26.3375rem;
     border: 0.125rem solid #F2F2F2;
     box-sizing: border-box;
     position: absolute;
@@ -196,12 +203,50 @@ ul li a:hover{
     top: 32.765rem;
 }
 @media screen and (max-width:320px) {
-    .section {
-        width: 320px;
-        height: 599px;
+    .section-first {
+        position: absolute;
+        width: 1290px;
+        height: 2400px;
+        left: 0px;
+        top: 0px;
+
+
     }
-    body{
-        width: 20%;
-        height: 20%;
+    .man-human{
+        position: absolute;
+        width: 900px;
+        height: 900px;
+        left: 370px;
+        top: 200gpx;
+    }
+    .nav-menu{
+        position: absolute;
+        width: 44px;
+        height: 0px;
+        left: 261px;
+        top: 29px;
+
+        border: 2px solid #333333;
+    }
+    .header-text{
+        position: absolute;
+        width: 190px;
+        height: 37px;
+        left: 65px;
+        top: 64px;
+
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 131.9%;
+    }
+    .header-list {
+        position: absolute;
+        width: 62px;
+        height: 20px;
+        left: 14px;
+        top: 27px;
     }
 }
+
+.
