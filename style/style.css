@@ -2,9 +2,11 @@
     max-width: 120rem;
     margin: 0 auto;
 }
+
 .header {
     background-color: #FED100;
 }
+
 .header-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -12,30 +14,37 @@
     justify-content: space-between;
     padding: 2.9375rem 22.5rem 0rem 16.875rem;
 }
+
 .header-list {
     display: flex;
     flex-wrap: wrap;
 }
+
 .header-nav-list {
     margin-right: 2.875rem;
 }
+
 .header-nav-list:last-child {
     margin-right: 0;
 }
+
 .nav-numb {
     display: flex;
     flex-wrap: wrap;
     align-items: self-start;
     justify-content: space-between;
 }
+
 .header_logo-link {
     position: relative;
 }
+
 .header_logo-pic {
     position: absolute;
     right: 13.125rem;
     bottom: 1px;
 }
+
 .nav-link {
     font-weight: 500;
     font-size: 1.125rem;
@@ -43,6 +52,7 @@
     color: #333333;
     text-decoration: none;
 }
+
 .nav-link:hover,
 .nav-link:focus,
 .nav-header-phone:hover,
@@ -50,26 +60,31 @@
     opacity: 75%;
     color: red;
 }
+
 .nav-header-phone {
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 1.8125rem;
 }
+
 .nav-header-phone a {
     color: #333333;
 }
+
 .wrapper-info {
     display: flex;
     flex-direction: column;
     padding: 3.9375rem 0px 0px 16.75rem;
     position: relative;
 }
+
 .inrto-title {
     font-weight: bold;
     font-size: 4.0625rem;
     line-height: 126.9%;
     width: 30rem;
 }
+
 #title-style {
     font-weight: 600;
     font-size: 1.8125rem;
@@ -78,6 +93,7 @@
     padding-bottom: 3.125rem;
     width: 21.25rem;
 }
+
 .btn {
     width: 19rem;
     height: 3.75rem;
@@ -89,6 +105,7 @@
     z-index: 2;
     border-color: #FF352B;
 }
+
 .while-border {
     border: 0.125rem solid #F2F2F2;
     box-sizing: border-box;
@@ -99,10 +116,12 @@
     left: 17.1875rem;
     z-index: 1;
 }
+
 .img-truck {
     width: 2.9375rem;
     Height: 2.25rem;
 }
+
 .info-box {
     display: flex;
     flex-wrap: wrap;
@@ -111,11 +130,13 @@
     padding-top: 4.8125rem;
     width: 43.75rem;
 }
+
 .info-list {
     line-height: 1.3125rem;
     margin-right: 2.5rem;
     margin-left: 0.25rem;
 }
+
 .human {
     position: absolute;
     width: 23.8125rem;
@@ -123,16 +144,19 @@
     left: 41rem;
     z-index: 1;
 }
+
 .logo-img {
     position: relative;
 }
+
 .man-car {
     position: absolute;
     left: 49.125rem;
     top: 8.75rem;
     z-index: 0;
 }
-.phone-car{
+
+.phone-img {
     position: absolute;
     left: 92.4rem;
     top: 28.8rem;
@@ -140,8 +164,8 @@
     background: url(../img/phone.png) center center no-repeat;
     height: 3.75rem;
     width: 3.75rem;
-
 }
+
 .phone-eclipse-one {
     position: absolute;
     top: 27.625rem;
@@ -152,6 +176,7 @@
     border-radius: 100%;
     z-index: 2;
 }
+
 .phone-eclipse-two {
     position: absolute;
     left: 89.9375rem;
@@ -162,6 +187,7 @@
     z-index: 1;
     width: 8.5rem;
 }
+
 .Move-nav {
     position: absolute;
     left: 65.625rem;
@@ -169,7 +195,9 @@
     z-index: 5;
 }
 
+
 /* first section*/
+
 .list-info {
     display: flex;
     flex-wrap: wrap;
@@ -184,10 +212,12 @@
     width: 20.875rem;
     height: 2.3125rem;
 }
-.phone-car {
-    transition:width 2s;
-    -webkit-transition:width 2s;
+
+.phone-img {
+    transition: width 2s;
+    -webkit-transition: width 2s;
 }
-.phone-car:hover {
+
+.phone-img:hover {
     transform: scale(1.2)
 }
