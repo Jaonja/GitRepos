@@ -61,13 +61,13 @@
     color: red;
 }
 
-.nav-header-phone {
+.header-phone-info {
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 1.8125rem;
 }
 
-.nav-header-phone a {
+.header-phone-info a {
     color: #333333;
 }
 
@@ -78,14 +78,14 @@
     position: relative;
 }
 
-.inrto-title {
+.info-title {
     font-weight: bold;
     font-size: 4.0625rem;
     line-height: 126.9%;
     width: 30rem;
 }
 
-#title-style {
+.info-title-two {
     font-weight: 600;
     font-size: 1.8125rem;
     line-height: 1.25rem;
@@ -137,7 +137,7 @@
     margin-left: 0.25rem;
 }
 
-.human {
+.human-img {
     position: absolute;
     width: 23.8125rem;
     height: 38rem;
@@ -145,79 +145,115 @@
     z-index: 1;
 }
 
-.logo-img {
+.header-img {
     position: relative;
 }
 
-.man-car {
+.car-img {
     position: absolute;
     left: 49.125rem;
     top: 8.75rem;
     z-index: 0;
 }
 
-.phone-img {
-    position: absolute;
-    left: 92.4rem;
-    top: 28.8rem;
-    z-index: 3;
-    background: url(../img/phone.png) center center no-repeat;
-    height: 3.75rem;
-    width: 3.75rem;
-}
-
 .phone-eclipse-one {
     position: absolute;
     top: 27.625rem;
     left: 91.0625rem;
-    background: rgba(61, 155, 233, 0.8);
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    z-index: 2;
+    background: rgba(233, 116, 61, 0.3);
+    z-index: 1;
+    width: 8.5rem;
+    height: 8.6rem;
+    border-radius: 50%
 }
 
 .phone-eclipse-two {
     position: absolute;
-    left: 89.9375rem;
-    top: 26.5625rem;
-    height: 136px;
-    background: rgba(61, 155, 233, 0.3);
-    border-radius: 100%;
-    z-index: 1;
-    width: 8.5rem;
+    left: 1rem;
+    top: 1rem;
+    background: rgba(61, 155, 233, 0.8);
+    z-index: 2;
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.Move-nav {
+.move-nav {
     position: absolute;
     left: 65.625rem;
     top: 32.625rem;
     z-index: 5;
 }
 
-
-/* first section*/
-
-.list-info {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: space-between;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.875rem;
-    line-height: 2.3125rem;
-    padding-left: 57.5rem;
-    padding-top: 5.9375rem;
-    width: 20.875rem;
-    height: 2.3125rem;
-}
-
-.phone-img {
-    transition: width 2s;
-    -webkit-transition: width 2s;
-}
-
-.phone-img:hover {
+.phone-eclipse-two:hover {
     transform: scale(1.2)
+}
+
+.phone-eclipse-two::before {
+    content: url(../img/phone.png);
+}
+
+@media (max-width: 320px) {
+    .header {
+        width: 20rem;
+        height: 37.4375rem;
+    }
+    .header_logo-pic {
+        width: 5rem;
+        padding-left: 1.8125rem;
+        height: 0.875rem;
+    }
+    .header-list {
+        position: absolute;
+        width: 2.75rem;
+        left: 13.875rem;
+        top: 0.625rem;
+    }
+    .info-title {
+        position: absolute;
+        left: 4.1875rem;
+        top: 4rem;
+        font-size: 1.75rem;
+        line-height: 131.9%;
+        text-decoration: none;
+    }
+    .info-title h1 {
+        text-align: right
+    }
+    .info-title-two {
+        position: absolute;
+        left: 3.75rem;
+        top: 7.625rem;
+        font-size: 1.125rem;
+        line-height: 131.9%;
+    }
+    .btn {
+        position: absolute;
+        left: 0.625rem;
+        top: 27.5rem;
+    }
+    .header-phone-info,
+    .car-img {
+        display: none;
+    }
+    .info-box {
+        display: none;
+    }
+    .while-border {
+        display: none;
+    }
+    .header-img {
+        height: 6.1875rem;
+        width: 6.1875rem;
+        position: absolute;
+        top: 11.75rem;
+        right: 50.625rem;
+    }
+    .human-img {
+        width: 12.5rem;
+        height: 18.6875rem;
+    }
 }
