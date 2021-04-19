@@ -1,6 +1,5 @@
-.wrapper {
-    max-width: 120rem;
-    margin: 0 auto;
+    .wrapper {
+    max-width: 100%;
 }
 
 .header {
@@ -10,18 +9,24 @@
 .header-wrapper {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: space-between;
-    padding: 2.9275rem 22.5rem 0rem 16.875rem;
+    padding-top: 46px;
+    max-width: 1600px;
+    height: 0px;
 }
 
 .header-list {
     display: flex;
     flex-wrap: wrap;
+    justify-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .header-menu {
     margin-right: 2.875rem;
+    padding-right: 20px;
 }
 
 .header-menu:last-child {
@@ -37,12 +42,6 @@
 
 .header_logo-link {
     position: relative;
-}
-
-.header_logo-pic {
-    position: absolute;
-    right: 13.125rem;
-    bottom: 1px;
 }
 
 .nav-link {
@@ -62,6 +61,8 @@
 }
 
 .header-phone-info {
+    display: flex;
+    flex-direction: column;
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 1.8125rem;
@@ -104,17 +105,27 @@
     color: #F2F2F2;
     z-index: 2;
     border-color: #FF352B;
+    position: relative;
 }
 
-.while-border {
-    border: 0.125rem solid #F2F2F2;
-    box-sizing: border-box;
+.wrapper-for-btn {
+    position: relative;
+}
+
+.btn:hover {
+    background: #FF772B;
+    transition: 0.5s;
+    box-shadow: 10px 10px 0px #F2F2F2;
+}
+
+.btn-shadow {
     position: absolute;
     width: 19rem;
     height: 3.75rem;
-    top: 20.562rem;
-    left: 17.1875rem;
-    z-index: 1;
+    top: 0.7rem;
+    left: 0.4rem;
+    border: 2px solid #F2F2F2;
+    z-index: 0;
 }
 
 .img-truck {
@@ -125,8 +136,7 @@
 .info-box {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 6.9375rem;
-    margin-right: 12.5rem;
+    padding-bottom: 110px;
     padding-top: 4.8125rem;
     width: 43.75rem;
 }
@@ -141,7 +151,7 @@
     position: absolute;
     width: 23.8125rem;
     height: 38rem;
-    left: 41rem;
+    left: 850px;
     z-index: 1;
 }
 
@@ -151,26 +161,32 @@
 
 .car-img {
     position: absolute;
-    left: 49.125rem;
+    left: 62.625rem;
     top: 8.75rem;
     z-index: 0;
 }
 
+.help {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    justify-items: right;
+    flex-direction: column-reverse;
+}
+
 .phone-eclipse-one {
-    position: absolute;
-    top: 27.625rem;
-    left: 91.0625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: rgba(233, 116, 61, 0.3);
     z-index: 1;
     width: 8.5rem;
     height: 8.6rem;
-    border-radius: 50%
+    border-radius: 50%;
+    margin-top: 400px;
 }
 
 .phone-eclipse-two {
-    position: absolute;
-    left: 1rem;
-    top: 1rem;
     background: rgba(61, 155, 233, 0.8);
     z-index: 2;
     width: 6.5rem;
@@ -181,22 +197,18 @@
     justify-content: center;
 }
 
-.move-nav {
-    position: absolute;
-    left: 65.625rem;
-    top: 32.625rem;
-    z-index: 5;
-}
-
-.phone-eclipse-two:hover {
-    transform: scale(1.2)
-}
-
 .phone-eclipse-two::before {
     content: url(../img/phone.png);
 }
 
-.Burger-Menu {
+.phone-eclipse-two:hover {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    background-color: #3d9be9;
+}
+
+.burger-menu {
     display: none;
 }
 
@@ -205,39 +217,6 @@
         width: 20rem;
         height: 37.4375rem;
     }
-    .header_logo-pic {
-        width: 4rem;
-        height: 0.775rem;
-        left: -255px;
-    }
-    .header-list {
-        position: absolute;
-        width: 2.75rem;
-        left: 13.875rem;
-    }
-    .info-title {
-        position: absolute;
-        left: 4.1875rem;
-        top: 1.5rem;
-        font-size: 1.75rem;
-        line-height: 131.9%;
-        text-decoration: none;
-    }
-    .info-title h1 {
-        text-align: right
-    }
-    .info-title-two {
-        position: absolute;
-        left: 3.75rem;
-        top: 5.25rem;
-        font-size: 1.125rem;
-        line-height: 131.9%;
-    }
-    .btn {
-        position: absolute;
-        left: 0.625rem;
-        top: 27.5rem;
-    }
     .header-phone-info,
     .while-border,
     .header-list,
@@ -245,21 +224,3 @@
     .car-img {
         display: none;
     }
-    .header-img {
-        position: absolute;
-        top: 8.99rem;
-        right: 57.625rem;
-    }
-    .human-img {
-        width: 14.5rem;
-        height: 22.6875rem;
-    }
-    .Burger-Menu {
-        position: absolute;
-        display: block;
-        width: 44px;
-        height: 19px;
-        left: 266px;
-        bottom: 62px;
-    }
-}
