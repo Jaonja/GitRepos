@@ -20,11 +20,11 @@
     flex-wrap: wrap;
 }
 
-.header-nav-list {
+.header-menu {
     margin-right: 2.875rem;
 }
 
-.header-nav-list:last-child {
+.header-menu:last-child {
     margin-right: 0;
 }
 
@@ -196,26 +196,29 @@
     content: url(../img/phone.png);
 }
 
+.Burger-Menu {
+    display: none;
+}
+
 @media (max-width: 320px) {
     .header {
         width: 20rem;
         height: 37.4375rem;
     }
     .header_logo-pic {
-        width: 5rem;
-        padding-left: 1.8125rem;
-        height: 0.875rem;
+        width: 4rem;
+        height: 0.775rem;
+        left: -255px;
     }
     .header-list {
         position: absolute;
         width: 2.75rem;
         left: 13.875rem;
-        top: 0.625rem;
     }
     .info-title {
         position: absolute;
         left: 4.1875rem;
-        top: 4rem;
+        top: 1.5rem;
         font-size: 1.75rem;
         line-height: 131.9%;
         text-decoration: none;
@@ -226,7 +229,7 @@
     .info-title-two {
         position: absolute;
         left: 3.75rem;
-        top: 7.625rem;
+        top: 5.25rem;
         font-size: 1.125rem;
         line-height: 131.9%;
     }
@@ -236,24 +239,27 @@
         top: 27.5rem;
     }
     .header-phone-info,
+    .while-border,
+    .header-list,
+    .info-box,
     .car-img {
         display: none;
     }
-    .info-box {
-        display: none;
-    }
-    .while-border {
-        display: none;
-    }
     .header-img {
-        height: 6.1875rem;
-        width: 6.1875rem;
         position: absolute;
-        top: 11.75rem;
-        right: 50.625rem;
+        top: 8.99rem;
+        right: 57.625rem;
     }
     .human-img {
-        width: 12.5rem;
-        height: 18.6875rem;
+        width: 14.5rem;
+        height: 22.6875rem;
+    }
+    .Burger-Menu {
+        position: absolute;
+        display: block;
+        width: 44px;
+        height: 19px;
+        left: 266px;
+        bottom: 62px;
     }
 }
