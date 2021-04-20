@@ -83,7 +83,7 @@
 .btn:hover {
     background: #FF772B;
     transition: 0.5s;
-    box-shadow: 0.625rem 10.625rem 0px #F2F2F2;
+    box-shadow: 0.625rem 0.625rem 0px #F2F2F2;
 }
 
 .btn-shadow {
