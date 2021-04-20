@@ -1,5 +1,7 @@
 .header {
     background-color: #FED100;
+    max-width: 100%;
+    position: relative;
 }
 
 .wrapper {
@@ -207,17 +209,24 @@
     .header_logo-pic {
         margin-left: 1rem;
         padding-top: 1.25rem;
+        height: 39px;
+        width: 77px;
     }
     .info-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         font-size: 1.75rem;
         line-height: 131.9%;
         margin-left: 4.125rem;
+        width: 250px;
     }
     .info-title-two {
         font-weight: 600;
         font-size: 1.125rem;
         line-height: 1.375re;
         margin-left: 4.125rem;
+        width: 250px;
     }
     .wrapper-for-btn {
         margin-top: 20rem;
@@ -227,14 +236,21 @@
         position: absolute;
         width: 15rem;
         height: 23.125rem;
-        right: 15rem;
         top: 9.6875rem;
+        right: 26PX;
     }
     .burger-menu {
         width: 2.625rem;
-        height: 0.9375rem;
+        height: 1.5375rem;
         display: block;
-        margin-top: 0.9375rem;
+        margin-top: 1.0975rem;
         margin-right: 0.625rem;
+    }
+    .logo-man {
+        right: 0px;
+        left: 0px;
+        top: 0px;
+        height: 450px;
+        width: 320px;
     }
 }
