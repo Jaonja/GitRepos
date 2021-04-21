@@ -5,8 +5,7 @@
 }
 
 .wrapper {
-    margin-left: 16%;
-    margin-right: 16%;
+    margin: 0 16% 0 16%;
     position: relative;
 }
 
@@ -36,7 +35,7 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
-    margin-top: 63px;
+    margin-top: 3.9375rem;
 }
 
 .info-title {
@@ -49,7 +48,7 @@
     font-weight: 600;
     font-size: 1.875rem;
     line-height: 2.3125rem;
-    margin-top: 13px;
+    margin-top: 0.8125rem;
     width: 21.4375rem;
 }
 
@@ -78,13 +77,13 @@
 
 .wrapper-for-countetn {
     position: relative;
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 .btn:hover {
     background: #FF772B;
     transition: 0.5s;
-    box-shadow: 0.625rem 0.625rem 0px #F2F2F2;
+    box-shadow: 0.625rem 0.625rem 0rem #F2F2F2;
 }
 
 .btn-shadow {
@@ -93,21 +92,20 @@
     height: 3.75rem;
     top: 0.7rem;
     left: 0.4rem;
-    border: 2px solid #F2F2F2;
+    border: 0.125rem solid #F2F2F2;
     z-index: 0;
 }
 
 .info-box {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 77px;
-    margin-bottom: 66px;
+    margin-top: 4.8125rem;
+    margin-bottom: 4.125rem;
 }
 
 .info-list {
     line-height: 1.3125rem;
-    margin-right: 2.5rem;
-    margin-left: 0.25rem;
+    margin: 0 2.5rem 0 0.25rem;
 }
 
 .logo-man {
@@ -137,8 +135,8 @@
     width: 8.5rem;
     height: 8.6rem;
     border-radius: 50%;
-    left: 87%;
-    bottom: 7%;
+    right: 3%;
+    bottom: 5%;
 }
 
 .phone-eclipse-two {
@@ -187,8 +185,8 @@
     .wrapper {
         width: 100%;
         height: 37.4375rem;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 0rem;
+        margin-right: 0rem;
     }
     .nav-list,
     .header-phone-info,
@@ -205,8 +203,8 @@
     .header_logo-pic {
         margin-left: 1rem;
         padding-top: 1.25rem;
-        height: 39px;
-        width: 77px;
+        height: 2.4375rem;
+        width: 4.8125rem;
     }
     .info-title {
         display: flex;
@@ -215,30 +213,30 @@
         font-size: 1.75rem;
         line-height: 131.9%;
         margin-left: 4.125rem;
-        width: 250px;
     }
     .info-title-two {
         font-weight: 600;
         font-size: 1.125rem;
         line-height: 1.375re;
         margin-left: 4.125rem;
-        width: 250px;
+        padding-bottom: 20px;
+        width: 15rem;
     }
-    .wrapper-for-btn {
-        margin-top: 20rem;
+    .wrapper-for-countetn {
+        margin-top: 17rem;
         margin-left: 0.5625rem;
     }
     .human-img {
-        position: absolute;
-        width: 15rem;
-        height: 23.125rem;
-        top: 9.6875rem;
-        right: 26PX;
+        height: 22.125rem;
+        top: 8.6875rem;
+        right: 261.625rem;
+        margin-top: 199px;
+        margin-left: 59px;
     }
     .burger-menu {
+        display: block;
         width: 2.625rem;
         height: 1.5375rem;
-        display: block;
         margin-top: 1.0975rem;
         margin-right: 0.625rem;
     }
@@ -246,7 +244,7 @@
         right: 0px;
         left: 0px;
         top: 0px;
-        height: 450px;
-        width: 320px;
+        height: 28.125rem;
+        width: 20rem;
     }
 }
