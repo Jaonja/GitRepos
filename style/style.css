@@ -1,7 +1,6 @@
 .header {
     background-color: #FED100;
     max-width: 100%;
-    position: relative;
 }
 
 .wrapper {
@@ -109,12 +108,16 @@
 }
 
 .logo-man {
+    display: flex;
+    flex-direction: row;
     position: absolute;
     right: 320px;
     bottom: 0.0625rem;
     z-index: 1;
-    width: 23.8125rem;
-    height: 38rem;
+}
+
+.man-mob-img {
+    display: none;
 }
 
 .logo-car {
@@ -192,7 +195,9 @@
     .header-phone-info,
     .info-box,
     .btn-shadow,
+    .man-mob-img,
     .phone-eclipse-one,
+    .logo-man,
     .logo-car {
         display: none;
     }
@@ -226,18 +231,22 @@
         margin-top: 17rem;
         margin-left: 0.5625rem;
     }
-    .human-img {
-        position: absolute;
-        height: 21.125rem;
-        width: 200px;
-        right: -277px;
-        top: 200px;
-    }
     .burger-menu {
         display: block;
         width: 2.625rem;
         height: 1.5375rem;
         margin-top: 1.0975rem;
         margin-right: 0.625rem;
+    }
+    .man-mob-img {
+        display: block;
+    }
+    .man-mob-img {
+        width: 248px;
+        height: 328px;
+        position: absolute;
+        top: 59%;
+        left: 56%;
+        transform: translate(-50%, -50%);
     }
 }
