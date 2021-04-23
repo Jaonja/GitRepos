@@ -1,6 +1,5 @@
 .header {
     background-color: #FED100;
-    max-width: 100%;
 }
 
 .wrapper {
@@ -9,7 +8,7 @@
 }
 
 .header-nav {
-    padding-top: 4%;
+    padding-top: 3.375rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -57,21 +56,10 @@
     line-height: 1.8125rem;
 }
 
-.header-list:last-child {
-    margin-right: 0;
-}
-
-.btn {
-    width: 19rem;
-    height: 3.75rem;
-    background-color: #FF352B;
-    font-weight: 600;
-    font-size: 1.5rem;
-    line-height: 1.8125rem;
-    color: #F2F2F2;
-    z-index: 2;
-    border-color: #FF352B;
-    position: relative;
+.btn:hover {
+    transition: 0.5s;
+    background-color: #ff772b;
+    color: #fff;
 }
 
 .wrapper-for-countetn {
@@ -79,20 +67,27 @@
     margin-top: 3.125rem;
 }
 
-.btn:hover {
-    background: #FF772B;
-    transition: 0.5s;
-    box-shadow: 0.625rem 0.625rem 0rem #F2F2F2;
+.btn-block {
+    position: relative;
+    width: 18.25rem;
+    height: 3.75rem;
+    margin-left: 0.70rem;
 }
 
 .btn-shadow {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #f2f2f2;
+}
+
+.btn {
+    background-color: #ff352b;
+    color: #f2f2f2;
+    padding: 1rem 6rem;
+    font-size: 1.5rem;
     position: absolute;
-    width: 19rem;
-    height: 3.75rem;
-    top: 0.7rem;
-    left: 0.4rem;
-    border: 0.125rem solid #F2F2F2;
-    z-index: 0;
+    left: -1.125rem;
+    top: -0.618rem;
 }
 
 .info-box {
@@ -108,10 +103,8 @@
 }
 
 .logo-man {
-    display: flex;
-    flex-direction: row;
     position: absolute;
-    right: 320px;
+    right: 20rem;
     bottom: 0.0625rem;
     z-index: 1;
 }
@@ -122,11 +115,9 @@
 
 .logo-car {
     position: absolute;
-    left: 69%;
+    right: -6.1875rem;
     bottom: 24%;
     z-index: 0;
-    width: 31.1875rem;
-    height: 18.75rem;
 }
 
 .phone-eclipse-one {
@@ -241,11 +232,14 @@
         display: block;
     }
     .man-mob-img {
-        width: 200px;
-        height: 328px;
+        width: 12.5rem;
+        height: 20.5rem;
         position: absolute;
         top: 59%;
         left: 56%;
         transform: translate(-50%, -50%);
+    }
+    .btn {
+        margin: 1.25rem 0 0 0, 4375rem;
     }
 }
