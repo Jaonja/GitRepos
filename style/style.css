@@ -1,637 +1,640 @@
-                                .header {
-                                    background-color: #FED100;
-                                }
-                                
-                                .wrapper {
-                                    margin: 0 16% 0 16%;
-                                    position: relative;
-                                }
-                                
-                                .header-nav {
-                                    padding-top: 3.9375rem;
-                                    display: flex;
-                                    justify-content: space-between;
-                                    flex-wrap: wrap;
-                                    align-content: center;
-                                }
-                                
-                                .nav-list {
-                                    display: flex;
-                                    flex-wrap: wrap;
-                                    justify-content: center;
-                                    align-items: center;
-                                }
-                                
-                                .nav-link {
-                                    margin-left: 2.1875rem;
-                                    font-weight: 500;
-                                    font-size: 1.125rem;
-                                    line-height: 1.375rem;
-                                }
-                                
-                                .wrapper-info {
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: left;
-                                    margin-top: 3.9375rem;
-                                }
-                                
-                                .info-title {
-                                    font-weight: bold;
-                                    font-size: 4.375rem;
-                                    line-height: 126.9%;
-                                }
-                                
-                                .info-title-two {
-                                    font-weight: 600;
-                                    font-size: 1.875rem;
-                                    line-height: 2.3125rem;
-                                    margin-top: 0.8125rem;
-                                    width: 21.4375rem;
-                                }
-                                
-                                .header-phone-info {
-                                    font-weight: 600;
-                                    font-size: 1.5rem;
-                                    line-height: 1.8125rem;
-                                }
-                                
-                                .btn:hover {
-                                    transition: 0.5s;
-                                    background-color: #ff772b;
-                                    color: #fff;
-                                    box-shadow: 0.75rem 0.75rem #fff;
-                                }
-                                
-                                .wrapper-for-countetn {
-                                    position: relative;
-                                    margin-top: 3.125rem;
-                                }
-                                
-                                .btn-block {
-                                    position: relative;
-                                    width: 18.25rem;
-                                    height: 3.75rem;
-                                    margin-left: 0.70rem;
-                                }
-                                
-                                .btn-shadow {
-                                    width: 100%;
-                                    height: 100%;
-                                    border: 2px solid #f2f2f2;
-                                }
-                                
-                                .btn {
-                                    background-color: #ff352b;
-                                    color: #f2f2f2;
-                                    padding: 1rem 6rem;
-                                    font-size: 1.5rem;
-                                    position: absolute;
-                                    left: -1.125rem;
-                                    top: -0.618rem;
-                                }
-                                
-                                .info-box {
-                                    display: flex;
-                                    flex-wrap: wrap;
-                                    margin-top: 4.8125rem;
-                                    margin-bottom: 4.125rem;
-                                }
-                                
-                                .info-list {
-                                    line-height: 1.3125rem;
-                                    margin: 0 2.5rem 0 0.25rem;
-                                }
-                                
-                                .logo-man {
-                                    position: absolute;
-                                    right: 20rem;
-                                    bottom: 0.0625rem;
-                                    z-index: 1;
-                                }
-                                
-                                .man-mob-img {
-                                    display: none;
-                                }
-                                
-                                .logo-car {
-                                    position: absolute;
-                                    right: -6.1875rem;
-                                    bottom: 24%;
-                                    z-index: 0;
-                                }
-                                
-                                .phone-eclipse-one {
-                                    position: absolute;
-                                    display: flex;
-                                    justify-content: center;
-                                    align-items: center;
-                                    background: rgba(61, 155, 233, 0.3);
-                                    width: 8.5rem;
-                                    height: 8.6rem;
-                                    border-radius: 50%;
-                                    right: 3%;
-                                    bottom: 5%;
-                                }
-                                
-                                .phone-eclipse-two {
-                                    background: rgba(61, 155, 233, 0.8);
-                                    width: 6.5rem;
-                                    height: 6.5rem;
-                                    border-radius: 50%;
-                                    display: flex;
-                                    align-items: center;
-                                    justify-content: center;
-                                }
-                                
-                                .phone-eclipse-two::before {
-                                    content: url(../img/phone.png);
-                                }
-                                
-                                .phone-eclipse-two:hover {
-                                    width: 100%;
-                                    height: 100%;
-                                    transition: 0.5s;
-                                    background-color: #3d9be9;
-                                }
-                                
-                                .nav-link:hover,
-                                .nav-link:focus,
-                                .header-phone-info:hover,
-                                .nav-link:active {
-                                    opacity: 75%;
-                                    color: red;
-                                }
-                                
-                                .header-phone-info {
-                                    color: #333333;
-                                }
-                                
-                                .nav-link {
-                                    color: #333333;
-                                    text-decoration: none;
-                                }
-                                
-                                .burger-menu {
-                                    display: none;
-                                }
-                                
-                                @media (max-width: 320px) {
-                                    .wrapper {
-                                        width: 100%;
-                                        height: 37.4375rem;
-                                        margin-left: 0rem;
-                                        margin-right: 0rem;
-                                    }
-                                    .nav-list,
-                                    .header-phone-info,
-                                    .info-box,
-                                    .btn-shadow,
-                                    .man-mob-img,
-                                    .phone-eclipse-one,
-                                    .logo-man,
-                                    .logo-car {
-                                        display: none;
-                                    }
-                                    .wrapper-info {
-                                        flex-direction: column;
-                                        font-size: 1.25rem;
-                                        height: 16.875rem;
-                                    }
-                                    .header_logo-pic {
-                                        margin-left: 1rem;
-                                        padding-top: 1.25rem;
-                                        height: 2.4375rem;
-                                        width: 5.8125rem;
-                                    }
-                                    .info-title {
-                                        display: flex;
-                                        align-items: center;
-                                        justify-content: space-between;
-                                        font-size: 1.75rem;
-                                        line-height: 131.9%;
-                                        margin-left: 4.125rem;
-                                    }
-                                    .info-title-two {
-                                        font-weight: 600;
-                                        font-size: 1.125rem;
-                                        line-height: 1.375rem;
-                                        margin-left: 4.125rem;
-                                        width: 15rem;
-                                        margin-bottom: 3.75rem;
-                                    }
-                                    .wrapper-for-countetn {
-                                        margin-top: 17rem;
-                                        margin-left: 0.5625rem;
-                                    }
-                                    .burger-menu {
-                                        display: block;
-                                        width: 2.625rem;
-                                        height: 1.5375rem;
-                                        margin-top: 1.0975rem;
-                                        margin-right: 0.625rem;
-                                    }
-                                    .man-mob-img {
-                                        display: block;
-                                    }
-                                    .man-mob-img {
-                                        width: 12.5rem;
-                                        height: 20.5rem;
-                                        position: absolute;
-                                        top: 59%;
-                                        left: 56%;
-                                        transform: translate(-50%, -50%);
-                                    }
-                                    .btn {
-                                        margin: -1.25rem 0 0 0.5625rem;
-                                    }
-                                    .header-nav {
-                                        padding-top: 0.375rem;
-                                    }
-                                    .btn-block {
-                                        height: 0rem;
-                                    }
-                                }
-                                
-                                .countent-info {
-                                    margin-left: 14%;
-                                    margin-right: 14%;
-                                }
-                                
-                                .wrapper-for-content {
-                                    font-weight: 600;
-                                    font-size: 30px;
-                                    line-height: 37px;
-                                    margin-top: 95px;
-                                    display: flex;
-                                    justify-content: center;
-                                }
-                                
-                                .container-within-formation {
-                                    display: flex;
-                                    justify-content: center;
-                                    flex-direction: row;
-                                    align-items: center;
-                                    margin-top: 90px;
-                                }
-                                
-                                .main-info {
-                                    margin-right: 90px;
-                                }
-                                
-                                .ifo-help {
-                                    font-weight: 500;
-                                    font-size: 20px;
-                                    line-height: 60%
-                                }
-                                
-                                .number-ico {
-                                    font-size: 3.125rem;
-                                    font-weight: 300;
-                                    color: #333;
-                                    margin: 0px 40px 40px 40px;
-                                    text-shadow: 0.05rem 0.05rem 0 #FED100;
-                                }
-                                
-                                .main-info-two {
-                                    display: flex;
-                                    justify-content: center;
-                                    flex-direction: column;
-                                    margin-top: 104px;
-                                }
-                                
-                                .prices {
-                                    display: flex;
-                                    justify-content: center;
-                                    font-weight: 600;
-                                    font-size: 30px;
-                                    line-height: 37px;
-                                }
-                                
-                                .prices-info {
-                                    display: flex;
-                                    justify-content: center;
-                                    margin-top: 10px;
-                                    font-weight: 600;
-                                    font-size: 24px;
-                                    line-height: 29px;
-                                }
-                                
-                                .prices-box-one {
-                                    display: flex;
-                                    flex-direction: column;
-                                    margin-top: 144px;
-                                    width: 416px;
-                                    height: 579px;
-                                    border: 1px solid #FED100;
-                                }
-                                
-                                .prices-box-one:hover,
-                                .prices-box-two:hover,
-                                .prices-box-three:hover {
-                                    box-sizing: border-box;
-                                    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.15);
-                                }
-                                
-                                .prices-box-two {
-                                    display: flex;
-                                    flex-direction: column;
-                                    margin-top: 144px;
-                                    width: 416px;
-                                    height: 579px;
-                                    border: 1px solid #FED100;
-                                    box-sizing: border-box;
-                                    margin-left: 20px;
-                                }
-                                
-                                .prices-box-three {
-                                    display: flex;
-                                    flex-direction: column;
-                                    margin-top: 144px;
-                                    width: 416px;
-                                    height: 579px;
-                                    border: 1px solid #FED100;
-                                    box-sizing: border-box;
-                                    margin-left: 20px;
-                                }
-                                
-                                .moving-information-one {
-                                    font-weight: 600;
-                                    font-size: 24px;
-                                    line-height: 29px;
-                                    text-align: center;
-                                    margin-top: 84px;
-                                }
-                                
-                                .moving-information-two {
-                                    font-size: 16px;
-                                    line-height: 21px;
-                                    text-align: center;
-                                    margin-top: 61px;
-                                }
-                                
-                                .moving-information-three {
-                                    font-size: 16px;
-                                    line-height: 21px;
-                                    text-align: center;
-                                    margin-top: 25.67px;
-                                }
-                                
-                                .moving-information-four {
-                                    font-size: 16px;
-                                    line-height: 21px;
-                                    text-align: center;
-                                    margin-top: 63.44px;
-                                }
-                                
-                                .moving-information-five {
-                                    font-size: 30px;
-                                    line-height: 37px;
-                                    text-align: center;
-                                    margin-top: 50px;
-                                }
-                                
-                                .order-button {
-                                    width: 250px;
-                                    height: 50px;
-                                    text-align: center;
-                                    background-color: #FED100;
-                                    font-weight: 500;
-                                    font-size: 20px;
-                                    line-height: 24px;
-                                    margin-top: 54px;
-                                    margin-left: 90px;
-                                    margin-right: 90px;
-                                    background-image: url(../img/pointer.png);
-                                    background-repeat: no-repeat;
-                                    background-position: left 40px top 23px;
-                                }
-                                
-                                .main-container-forprices {
-                                    display: flex;
-                                    flex-direction: row;
-                                    margin-left: 10px;
-                                    justify-content: center;
-                                }
-                                
-                                .order-button:hover {
-                                    transition: 0.5s;
-                                    background-color: #ff772b;
-                                    color: #fff;
-                                }
-                                
-                                .car-park-box {
-                                    display: flex;
-                                    justify-content: center;
-                                    flex-direction: column;
-                                    margin-top: 102px;
-                                }
-                                
-                                .car-park {
-                                    display: flex;
-                                    justify-content: center;
-                                    font-weight: 600;
-                                    font-size: 30px;
-                                    line-height: 37px;
-                                }
-                                
-                                .car-park-info {
-                                    display: flex;
-                                    justify-content: center;
-                                    font-weight: 600;
-                                    font-size: 24px;
-                                    line-height: 29px;
-                                    margin-top: 15px;
-                                }
-                                
-                                .car-selection {
-                                    display: flex;
-                                    flex-direction: row;
-                                    justify-content: center;
-                                    margin-top: 60px;
-                                }
-                                
-                                .car-gazelle {
-                                    font-weight: 500;
-                                    font-size: 20px;
-                                    line-height: 24px;
-                                    border: 1px solid #FED100;
-                                    box-sizing: border-box;
-                                    margin-right: 19px;
-                                    width: 201px;
-                                    height: 50px;
-                                    justify-content: center;
-                                    display: flex;
-                                    align-items: center;
-                                }
-                                
-                                .car-heels {
-                                    font-weight: 500;
-                                    font-size: 20px;
-                                    width: 201px;
-                                    height: 50px;
-                                    line-height: 24px;
-                                    border: 1px solid #EBEBEB;
-                                    box-sizing: border-box;
-                                    margin-right: 19px;
-                                    justify-content: center;
-                                    display: flex;
-                                    align-items: center;
-                                }
-                                
-                                .car-truck {
-                                    font-weight: 500;
-                                    font-size: 20px;
-                                    width: 201px;
-                                    height: 50px;
-                                    line-height: 24px;
-                                    border: 1px solid #EBEBEB;
-                                    box-sizing: border-box;
-                                    justify-content: center;
-                                    display: flex;
-                                    align-items: center;
-                                }
-                                
-                                .gazel-info {
-                                    font-style: normal;
-                                    font-weight: 600;
-                                    font-size: 24px;
-                                    line-height: 29px;
-                                    color: #333333;
-                                }
-                                
-                                .feature-gazel {
-                                    font-size: 16px;
-                                    line-height: 21px;
-                                    margin-top: 28px;
-                                }
-                                
-                                .feature-gazel-list li::before {
-                                    content: "✓";
-                                    padding-right: 1rem;
-                                    font-weight: 700;
-                                }
-                                
-                                .list-inform {
-                                    display: flex;
-                                    justify-content: right;
-                                    flex-direction: column;
-                                    margin-top: 97px;
-                                    right: 20px;
-                                }
-                                
-                                .gazel-inform-box {
-                                    display: flex;
-                                    justify-content: center;
-                                }
-                                
-                                .feature-gazel-list {
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: left;
-                                    position: relative;
-                                }
-                                
-                                .button-order {
-                                    width: 225px;
-                                    height: 40px;
-                                    text-align: center;
-                                    background-color: #FED100;
-                                    font-weight: 500;
-                                    font-size: 20px;
-                                    line-height: 24px;
-                                    margin-top: 30px;
-                                    margin-right: 200px;
-                                }
-                                
-                                .gazel-img {
-                                    margin-top: 47px;
-                                }
-                                
-                                .button-order:hover {
-                                    transition: 0.5s;
-                                    background-color: #ff772b;
-                                    color: #fff;
-                                }
-                                
-                                .reviews {
-                                    background-color: #FED100;
-                                }
-                                
-                                .wrapper-for-reviews {
-                                    margin-left: 7%;
-                                    margin-right: 7%;
-                                }
-                                
-                                .reviews-list {
-                                    display: flex;
-                                    justify-content: center;
-                                    font-weight: 600;
-                                    font-size: 30px;
-                                    line-height: 37px;
-                                    margin-top: 20px;
-                                    padding-top: 100px;
-                                }
-                                
-                                .revocation-wrapper {
-                                    font-size: 16px;
-                                    line-height: 21px;
-                                    width: 423px;
-                                    height: 265px;
-                                }
-                                
-                                .revocation-wrapper1 {
-                                    font-size: 16px;
-                                    line-height: 21px;
-                                    width: 421px;
-                                    height: 265px;
-                                }
-                                
-                                .revocation-wrapper2 {
-                                    font-size: 16px;
-                                    line-height: 21px;
-                                    width: 420px;
-                                    height: 265px;
-                                    margin-left: 30px;
-                                }
-                                
-                                .help {
-                                    display: flex;
-                                    justify-content: center;
-                                    margin-top: 30px;
-                                }
-                                
-                                .help1 {
-                                    font-weight: 600;
-                                    font-size: 24px;
-                                    line-height: 29px;
-                                    margin-bottom: 10px;
-                                }
-                                
-                                .help2 {
-                                    font-size: 16px;
-                                    line-height: 21px;
-                                    margin-bottom: 10px;
-                                }
-                                
-                                .otzivu {
-                                    margin-bottom: 60px;
-                                }
-                                
-                                .jopa {
-                                    display: flex;
-                                    justify-content: center;
-                                    width: 250px;
-                                    height: 30px;
-                                    border: 1px solid #333333;
-                                    box-sizing: border-box;
-                                    margin-top: 50px;
-                                }
-                                
-                                .jopa2 {
-                                    font-weight: 500;
-                                    font-size: 20px;
-                                    line-height: 24px;
-                                    display: flex;
-                                    align-items: center;
-                                }
+ .header {
+     background-color: #FED100;
+ }
+ 
+ .wrapper {
+     margin: 0 16%;
+     position: relative;
+ }
+ 
+ .header-nav {
+     padding-top: 3.9375rem;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     align-content: center;
+ }
+ 
+ .nav-list {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .nav-link {
+     margin-left: 2.1875rem;
+     font-weight: 500;
+     font-size: 1.125rem;
+     line-height: 1.375rem;
+ }
+ 
+ .wrapper-info {
+     display: flex;
+     flex-direction: column;
+     justify-content: left;
+     margin-top: 3.9375rem;
+ }
+ 
+ .info-title {
+     font-weight: bold;
+     font-size: 4.375rem;
+     line-height: 126.9%;
+ }
+ 
+ .info-title-two {
+     font-weight: 600;
+     font-size: 1.875rem;
+     line-height: 2.3125rem;
+     margin-top: 0.8125rem;
+     width: 21.4375rem;
+ }
+ 
+ .header-phone-info {
+     font-weight: 600;
+     font-size: 1.5rem;
+     line-height: 1.8125rem;
+ }
+ 
+ .btn:hover {
+     transition: 0.5s;
+     background-color: #ff772b;
+     color: #fff;
+     box-shadow: 0.75rem 0.75rem #fff;
+ }
+ 
+ .wrapper-for-countetn {
+     position: relative;
+     margin-top: 3.125rem;
+ }
+ 
+ .btn-block {
+     position: relative;
+     width: 18.25rem;
+     height: 3.75rem;
+     margin-left: 0.70rem;
+ }
+ 
+ .btn-shadow {
+     width: 100%;
+     height: 100%;
+     border: 2px solid #f2f2f2;
+ }
+ 
+ .btn {
+     background-color: #ff352b;
+     color: #f2f2f2;
+     padding: 1rem 6rem;
+     font-size: 1.5rem;
+     position: absolute;
+     left: -1.125rem;
+     top: -0.618rem;
+ }
+ 
+ .info-box {
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 4.8125rem;
+     margin-bottom: 4.125rem;
+ }
+ 
+ .info-list {
+     line-height: 1.3125rem;
+     margin: 0 2.5rem 0 0.25rem;
+ }
+ 
+ .logo-man {
+     position: absolute;
+     right: 20rem;
+     bottom: 0.0625rem;
+     z-index: 1;
+ }
+ 
+ .man-mob-img {
+     display: none;
+ }
+ 
+ .logo-car {
+     position: absolute;
+     right: -6.1875rem;
+     bottom: 24%;
+     z-index: 0;
+ }
+ 
+ .phone-eclipse-one {
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: rgba(61, 155, 233, 0.3);
+     width: 8.5rem;
+     height: 8.6rem;
+     border-radius: 50%;
+     right: 3%;
+     bottom: 5%;
+ }
+ 
+ .phone-eclipse-two {
+     background: rgba(61, 155, 233, 0.8);
+     width: 6.5rem;
+     height: 6.5rem;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .phone-eclipse-two::before {
+     content: url(../img/phone.png);
+ }
+ 
+ .phone-eclipse-two:hover {
+     width: 100%;
+     height: 100%;
+     transition: 0.5s;
+     background-color: #3d9be9;
+ }
+ 
+ .nav-link:hover,
+ .nav-link:focus,
+ .header-phone-info:hover,
+ .nav-link:active {
+     opacity: 75%;
+     color: red;
+ }
+ 
+ .header-phone-info {
+     color: #333333;
+ }
+ 
+ .nav-link {
+     color: #333333;
+     text-decoration: none;
+ }
+ 
+ .burger-menu {
+     display: none;
+ }
+ 
+ @media (max-width: 320px) {
+     .wrapper {
+         width: 100%;
+         height: 37.4375rem;
+         margin-left: 0rem;
+         margin-right: 0rem;
+     }
+     .nav-list,
+     .header-phone-info,
+     .info-box,
+     .btn-shadow,
+     .man-mob-img,
+     .phone-eclipse-one,
+     .logo-man,
+     .logo-car {
+         display: none;
+     }
+     .wrapper-info {
+         flex-direction: column;
+         font-size: 1.25rem;
+         height: 16.875rem;
+     }
+     .header_logo-pic {
+         margin-left: 1rem;
+         padding-top: 1.25rem;
+         height: 2.4375rem;
+         width: 5.8125rem;
+     }
+     .info-title {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         font-size: 1.75rem;
+         line-height: 131.9%;
+         margin-left: 4.125rem;
+     }
+     .info-title-two {
+         font-weight: 600;
+         font-size: 1.125rem;
+         line-height: 1.375rem;
+         margin-left: 4.125rem;
+         width: 15rem;
+         margin-bottom: 3.75rem;
+     }
+     .wrapper-for-countetn {
+         margin-top: 17rem;
+         margin-left: 0.5625rem;
+     }
+     .burger-menu {
+         display: block;
+         width: 2.625rem;
+         height: 1.5375rem;
+         margin-top: 1.0975rem;
+         margin-right: 0.625rem;
+     }
+     .man-mob-img {
+         display: block;
+     }
+     .man-mob-img {
+         width: 12.5rem;
+         height: 20.5rem;
+         position: absolute;
+         top: 59%;
+         left: 56%;
+         transform: translate(-50%, -50%);
+     }
+     .btn {
+         margin: -1.25rem 0 0 0.5625rem;
+     }
+     .header-nav {
+         padding-top: 0.375rem;
+     }
+     .btn-block {
+         height: 0rem;
+     }
+ }
+ 
+ .countent-info {
+     margin-left: 0 14%;
+ }
+ 
+ .wrapper-for-content {
+     font-weight: 600;
+     font-size: 1.875rem;
+     line-height: 2.3125rem;
+     margin-top: 5.9375rem;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .container-within-formation {
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     align-items: center;
+     margin-top: 5.625rem;
+ }
+ 
+ .main-info {
+     margin-right: 5.625rem;
+ }
+ 
+ .ifo-help {
+     font-weight: 500;
+     font-size: 1.25rem;
+     line-height: 60%
+ }
+ 
+ .number-ico {
+     font-size: 3.125rem;
+     font-weight: 300;
+     color: #333;
+     margin: 0px 2.5rem 2.5rem 2.5rem;
+     text-shadow: 0.05rem 0.05rem 0 #FED100;
+ }
+ 
+ .main-info-two {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin-top: 6.5rem;
+ }
+ 
+ .prices {
+     display: flex;
+     justify-content: center;
+     font-weight: 600;
+     font-size: 2.3125rem;
+     line-height: 2.3125rem;
+ }
+ 
+ .prices-info {
+     display: flex;
+     justify-content: center;
+     margin-top: 0.625rem;
+     font-weight: 600;
+     font-size: 1.5rem;
+     line-height: 1.8125rem;
+ }
+ 
+ .prices-box-one {
+     display: flex;
+     flex-direction: column;
+     margin-top: 9rem;
+     width: 26rem;
+     height: 36.1875rem;
+     border: 1px solid #FED100;
+ }
+ 
+ .prices-box-one:hover,
+ .prices-box-two:hover,
+ .prices-box-three:hover {
+     box-sizing: border-box;
+     box-shadow: 0px 0.75rem 1.5625rem rgba(0, 0, 0, 0.15);
+ }
+ 
+ .prices-box-two {
+     display: flex;
+     flex-direction: column;
+     margin-top: 9rem;
+     width: 26rem;
+     height: 36.1875rem;
+     border: 1px solid #FED100;
+     box-sizing: border-box;
+     margin-left: 1.25rem;
+ }
+ 
+ .prices-box-three {
+     display: flex;
+     flex-direction: column;
+     margin-top: 9rem;
+     width: 26rem;
+     height: 36.1875rem;
+     border: 1px solid #FED100;
+     box-sizing: border-box;
+     margin-left: 1.25rem;
+ }
+ 
+ .moving-information-one {
+     font-weight: 600;
+     font-size: 1.5rem;
+     line-height: 1.8125rem;
+     text-align: center;
+     margin-top: 5.25rem;
+ }
+ 
+ .moving-information-two {
+     font-size: 1rem;
+     line-height: 1.3125rem;
+     text-align: center;
+     margin-top: 3.8125rem;
+ }
+ 
+ .moving-information-three {
+     font-size: 1rem;
+     line-height: 1.3125rem;
+     text-align: center;
+     margin-top: 1.5625rem;
+ }
+ 
+ .moving-information-four {
+     font-size: 1rem;
+     line-height: 1.3125rem;
+     text-align: center;
+     margin-top: 3.9375rem;
+ }
+ 
+ .moving-information-five {
+     font-size: 1.875rem;
+     line-height: 2.3125rem;
+     text-align: center;
+     margin-top: 3.125rem;
+ }
+ 
+ .order-button {
+     width: 15.625rem;
+     height: 3.125rem;
+     text-align: center;
+     background-color: #FED100;
+     font-weight: 500;
+     font-size: 1.25rem;
+     line-height: 1.5rem;
+     margin-top: 3.375rem;
+     margin-left: 5.625rem;
+     margin-right: 5.625rem;
+     background-image: url(../img/pointer.png);
+     background-repeat: no-repeat;
+     background-position: left 2.5rem top 1.4375rem;
+ }
+ 
+ .main-container-forprices {
+     display: flex;
+     flex-direction: row;
+     margin-left: 0.625rem;
+     justify-content: center;
+ }
+ 
+ .order-button:hover {
+     transition: all 0.5s ease;
+     color: #fff;
+     box-shadow: 0px 0.25rem 1.5rem #fed100;
+ }
+ 
+ .car-park-box {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin-top: 6.375rem;
+ }
+ 
+ .car-park {
+     display: flex;
+     justify-content: center;
+     font-weight: 600;
+     font-size: 1.875rem;
+     line-height: 2.3125rem;
+ }
+ 
+ .car-park-info {
+     display: flex;
+     justify-content: center;
+     font-weight: 600;
+     font-size: 1.5rem;
+     line-height: 1.8125rem;
+     margin-top: 0.9375rem;
+ }
+ 
+ .car-selection {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     margin-top: 3.75rem;
+ }
+ 
+ .car-gazelle {
+     font-weight: 500;
+     font-size: 1.25rem;
+     line-height: 1.5rem;
+     border: 1px solid #FED100;
+     box-sizing: border-box;
+     margin-right: 1.1875rem;
+     width: 12.5625rem;
+     height: 3.125rem;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .car-heels {
+     font-weight: 500;
+     font-size: 1.25rem;
+     width: 12.5625rem;
+     height: 3.125rem;
+     line-height: 1.5rem;
+     border: 1px solid #EBEBEB;
+     box-sizing: border-box;
+     margin-right: 1.1875rem;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .car-truck {
+     font-weight: 500;
+     font-size: 1.25rem;
+     width: 12.5625rem;
+     height: 3.125rem;
+     line-height: 1.5rem;
+     border: 1px solid #EBEBEB;
+     box-sizing: border-box;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .gazel-info {
+     font-style: normal;
+     font-weight: 600;
+     font-size: 1.5rem;
+     line-height: 1.8125rem;
+     color: #333333;
+ }
+ 
+ .feature-gazel {
+     font-size: 1rem;
+     line-height: 1.3125rem;
+     margin-top: 1.75rem;
+ }
+ 
+ .feature-gazel-list li::before {
+     content: "✓";
+     padding-right: 1rem;
+     font-weight: 700;
+ }
+ 
+ .list-inform {
+     display: flex;
+     justify-content: right;
+     flex-direction: column;
+     margin-top: 6.0625rem;
+     right: 1.25rem;
+ }
+ 
+ .gazel-inform-box {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .feature-gazel-list {
+     display: flex;
+     flex-direction: column;
+     justify-content: left;
+     position: relative;
+ }
+ 
+ .button-order {
+     width: 14.0625rem;
+     height: 2.5rem;
+     text-align: center;
+     background-color: #FED100;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 24px;
+     margin-top: 30px;
+     margin-right: 200px;
+ }
+ 
+ .gazel-img {
+     margin-top: 47px;
+ }
+ 
+ .button-order:hover {
+     transition: all 0.5s ease;
+     color: #fff;
+     box-shadow: 0px 0.25rem 1.5rem #fed100;
+ }
+ 
+ .reviews {
+     background-color: #FED100;
+ }
+ 
+ .wrapper-for-reviews {
+     margin-left: 7%;
+     margin-right: 7%;
+ }
+ 
+ .reviews-list {
+     display: flex;
+     justify-content: center;
+     font-weight: 600;
+     font-size: 30px;
+     line-height: 37px;
+     margin-top: 20px;
+     padding-top: 100px;
+ }
+ 
+ .revocation-wrapper {
+     font-size: 16px;
+     line-height: 21px;
+     width: 423px;
+     height: 265px;
+ }
+ 
+ .revocation-wrapper1 {
+     font-size: 16px;
+     line-height: 21px;
+     width: 421px;
+     height: 265px;
+ }
+ 
+ .revocation-wrapper2 {
+     font-size: 16px;
+     line-height: 21px;
+     width: 420px;
+     height: 265px;
+     margin-left: 30px;
+ }
+ 
+ .block-for-recall {
+     display: flex;
+     justify-content: center;
+     margin-top: 30px;
+ }
+ 
+ .user-feedback {
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 29px;
+     margin-bottom: 10px;
+ }
+ 
+ .date-with-revocation {
+     font-size: 16px;
+     line-height: 21px;
+     margin-bottom: 10px;
+ }
+ 
+ .otzivu {
+     margin-bottom: 60px;
+ }
+ 
+ .btn-call-tariffs {
+     border: 1px solid #333333;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+ }
+ 
+ .btn-call-tariffs {
+     width: 18.125rem;
+     height: 3.75rem;
+     border: 1px solid #333333;
+     margin-top: 65px;
+     background-color: #fed100;
+ }
+ 
+ .btn-call-tariffs:hover {
+     color: #fff;
+     background-color: #333333;
+     box-shadow: 0px 0.25rem 1.5rem #fed100;
+ }
