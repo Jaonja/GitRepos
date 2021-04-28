@@ -197,14 +197,23 @@
             margin-top: 5.625rem;
         }
         
-        .main-info {
-            margin-right: 5.625rem;
+        .blocks-with-moving-information {
+            width: 420px;
+            margin-right: 66px;
         }
         
-        .ifo-help {
+        .moving-information {
+            margin-top: 20px;
+            text-align: left;
+            font-size: 16px;
+            line-height: 21px;
+        }
+        
+        .clarification-on-moving {
             font-weight: 500;
             font-size: 1.25rem;
-            line-height: 60%
+            line-height: 60%;
+            margin-bottom: -20px;
         }
         
         .number-ico {
@@ -215,7 +224,7 @@
             text-shadow: 0.05rem 0.05rem 0 #FED100;
         }
         
-        .main-info-two {
+        .service-header {
             display: flex;
             justify-content: center;
             flex-direction: column;
@@ -278,7 +287,7 @@
             margin-left: 1.25rem;
         }
         
-        .moving-information-one {
+        .moving-information-flat {
             font-weight: 600;
             font-size: 1.5rem;
             line-height: 1.8125rem;
@@ -286,28 +295,28 @@
             margin-top: 5.25rem;
         }
         
-        .moving-information-two {
+        .moving-information-car {
             font-size: 1rem;
             line-height: 1.3125rem;
             text-align: center;
             margin-top: 3.8125rem;
         }
         
-        .moving-information-three {
+        .moving-information-employee {
             font-size: 1rem;
             line-height: 1.3125rem;
             text-align: center;
             margin-top: 1.5625rem;
         }
         
-        .moving-information-four {
+        .moving-information-time {
             font-size: 1rem;
             line-height: 1.3125rem;
             text-align: center;
             margin-top: 3.9375rem;
         }
         
-        .moving-information-five {
+        .moving-information-cost {
             font-size: 1.875rem;
             line-height: 2.3125rem;
             text-align: center;
@@ -344,10 +353,7 @@
         }
         
         .car-park-box {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            margin-top: 6.375rem;
+            margin: 0 10%;
         }
         
         .car-park {
@@ -356,6 +362,7 @@
             font-weight: 600;
             font-size: 1.875rem;
             line-height: 2.3125rem;
+            margin-top: 6.375rem;
         }
         
         .car-park-info {
@@ -486,7 +493,7 @@
             margin-right: 7%;
         }
         
-        .reviews-list {
+        .сustomer-кeviews {
             display: flex;
             justify-content: center;
             font-weight: 600;
@@ -503,23 +510,6 @@
             height: 16.5625rem;
             text-align: left;
             margin-right: 3.125rem;
-        }
-        
-        .revocation-wrapper1 {
-            font-size: 1rem;
-            line-height: 1.3125rem;
-            width: 26.3125rem;
-            height: 16.5625rem;
-            text-align: left;
-        }
-        
-        .revocation-wrapper2 {
-            font-size: 1rem;
-            line-height: 1.3125rem;
-            width: 26.25rem;
-            height: 16.5625rem;
-            margin-left: 3.125rem;
-            text-align: left;
         }
         
         .block-for-recall {
@@ -539,9 +529,18 @@
             font-size: 1rem;
             line-height: 1.3125rem;
             margin-bottom: 0.625rem;
+            margin-top: 20px;
         }
         
-        .reviews-text {
+        .date-with-revocation::after {
+            content: '';
+            background-image: url(../img/star.png);
+            width: 76px;
+            height: 17px;
+            position: absolute;
+        }
+        
+        .сustomer-кeviews {
             margin-bottom: 3.75rem;
         }
         
