@@ -112,6 +112,7 @@
     z-index: 1;
     height: auto;
     max-width: 100%;
+    height: auto;
     display: block;
 }
 
@@ -123,6 +124,7 @@
     position: absolute;
     right: -11.1875rem;
     bottom: 24%;
+    height: auto;
     z-index: 0;
 }
 
@@ -201,19 +203,19 @@
     display: flex;
     justify-content: center;
     margin-top: 5.625rem;
-    margin-right: -200px;
+    margin-right: -12.5rem;
 }
 
 .blocks-with-moving-information {
-    width: 420px;
-    margin-right: 66px;
+    width: 26.25rem;
+    margin-right: 4.125rem;
 }
 
 .moving-information {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     text-align: left;
-    font-size: 16px;
-    line-height: 21px;
+    font-size: 1rem;
+    line-height: 1.3125rem;
 }
 
 .moving-information-box {
@@ -271,11 +273,10 @@
 .prices-box {
     display: flex;
     flex-direction: column;
-    margin-top: 9rem;
     width: 25%;
     height: 36.1875rem;
-    margin-left: 1.25rem;
     background-color: #F8FBFF;
+    margin: 9rem 0 0 1.25rem;
 }
 
 .moving-information-flat {
@@ -322,8 +323,7 @@
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 1.5rem;
-    margin-left: 23%;
-    margin-top: 15%;
+    margin: 15% 0 0 23%;
 }
 
 .main-container-forprices {
@@ -438,7 +438,6 @@
     flex-direction: column;
     margin-top: 6.0625rem;
     width: 50%;
-    right: 1.25rem;
 }
 
 .gazel-inform-box {
@@ -465,16 +464,14 @@
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 1.5rem;
-    margin-top: 1.875rem;
-    margin-right: 12.5rem;
+    margin: 1.875rem 12.5rem 0 0;
 }
 
 .gazel-img {
-    margin-top: 2.9375rem;
     height: auto;
     max-width: 100%;
-    margin-right: 10%;
     display: flex;
+    margin: 2.9375rem 10% 0 0;
     flex-wrap: nowrap;
 }
 
@@ -489,12 +486,11 @@
 
 .reviews {
     background-color: #FED100;
-    min-height: 660px;
+    min-height: 41.25rem;
 }
 
 .wrapper-for-reviews {
-    margin-left: 7%;
-    margin-right: 7%;
+    margin: 0 7%;
 }
 
 .сustomer-кeviews {
@@ -503,8 +499,8 @@
     font-weight: 600;
     font-size: 1.875rem;
     line-height: 2.3125rem;
-    margin-top: 1.25rem;
     padding-top: 6.25rem;
+    margin: 1.25rem 0 0 0;
 }
 
 .revocation-wrapper {
@@ -513,27 +509,26 @@
     max-width: 25%;
     max-height: 100%;
     text-align: left;
-    margin-right: 3.125rem;
+    margin: 0 3.125rem 0 0;
 }
 
 .block-for-recall {
     display: flex;
     justify-content: center;
-    margin-top: 1.875rem;
+    margin: 1.875rem 0 0 0;
 }
 
 .user-feedback {
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 0.625rem;
-    margin-bottom: 0.625rem;
+    margin: 0 0 0.625rem 0;
 }
 
 .date-with-revocation {
     font-size: 1rem;
     line-height: 1.3125rem;
-    margin-bottom: 0.625rem;
-    margin-top: 20px;
+    margin: 1.25rem 0 0.625rem 0;
 }
 
 .date-with-revocation::after {
@@ -635,26 +630,23 @@
         justify-content: space-between;
         font-size: 1.75rem;
         line-height: 131.9%;
-        margin-left: 4.125rem;
+        margin: 0 0 0 4.125rem;
     }
     .info-title-two {
         font-weight: 600;
         font-size: 1.125rem;
         line-height: 1.375rem;
-        margin-left: 4.125rem;
         width: 15rem;
-        margin-bottom: 3.75rem;
+        margin: 0 0 3.75rem 4.125rem;
     }
     .wrapper-for-countetn {
-        margin-top: 17rem;
-        margin-left: 0.5625rem;
+        margin: 17rem 0 0 0.625rem;
     }
     .burger-menu {
         display: block;
         width: 2.625rem;
         height: 1.5375rem;
-        margin-top: 1.0975rem;
-        margin-right: 0.625rem;
+        margin: 1.0975rem 0.625rem 0 0;
     }
     .man-mob-img {
         display: block;
@@ -688,35 +680,33 @@
     }
     .mob-help {
         font-weight: 300;
-        font-size: 50px;
-        line-height: 61px;
-        margin-right: 20px;
+        font-size: 3.125rem;
+        line-height: 3.8125rem;
+        margin: 0 1.25rem 0 0;
     }
     .container-within-formation {
         margin: 0;
         position: relative;
     }
     .clarification-on-moving {
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 131.4%;
-        width: 177px;
-        height: 42px;
+        width: 11.0625rem;
+        height: 2.625rem;
     }
     .moving-information-box {
         justify-content: left;
-        margin-right: 240px;
-        margin-top: 50px;
-        margin-bottom: -90;
+        margin: 3.125rem 15rem 0rem 0;
     }
     .how-does-this-happen {
         font-weight: 600;
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
     }
     .prices-box {
         margin-top: 0px;
-        width: 320px;
-        height: 595px;
+        width: 20rem;
+        height: 37.1875rem;
         margin: 0 0 0 0;
         box-shadow: none;
     }
@@ -741,61 +731,58 @@
     }
     .gazel-info-mobil {
         display: block;
-        margin-top: 40px;
-        margin-right: 40px;
-        width: 321px;
-        height: 227px;
+        margin: 2.5rem 2.5rem 0 0;
+        width: 20.0625rem;
+        height: 14.1875rem;
     }
     .pagination-img-mobil {
         display: block;
-        width: 100px;
-        height: 113px;
+        width: 6.25rem;
+        height: 7.0625rem;
         display: flex;
-        margin-left: 120px;
-        margin-top: 40px;
+        margin: 2.5rem 0 0 6.5rem;
         justify-content: center;
     }
     .gazelle-information-mobil {
         display: block;
         display: flex;
         justify-content: center;
-        margin-top: 30px;
-        font-size: 12px;
-        line-height: 15px;
+        margin: 1.875rem 0 0 0;
+        font-size: 0.75rem;
+        line-height: 0.9375rem;
     }
     .button-order-mobile {
         display: block;
-        width: 292px;
-        max-height: 60px;
+        width: 18.25rem;
+        max-height: 3.75rem;
         font-weight: 500;
         border: solid 2px;
-        font-size: 20px;
-        line-height: 24px;
-        margin-top: 40px;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
         background-color: #FED100;
-        margin-left: 10px;
+        margin: 2.5rem 0 0 0.625rem;
     }
     .price-mobile {
         display: flex;
         justify-content: center;
         align-items: center;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 131.4%;
-        margin-top: 10px;
+        margin-top: 0.625rem;
         color: #333333;
     }
     .car-park {
-        margin-top: -10px;
+        margin-top: -0.625rem;
         font-weight: 600;
-        font-size: 25px;
-        line-height: 99px;
+        font-size: 1.5625rem;
+        line-height: 6.1875rem;
     }
     .car-selection {
-        margin-top: -30px;
+        margin-top: -1.875rem;
     }
     .car-park-box {
-        height: 599px;
+        height: 37.4375rem;
     }
     .car-truck,
     .car-heels {
@@ -807,62 +794,62 @@
         border-right: none;
     }
     .feature-gazel {
-        margin-left: 190px;
+        margin-left: 11.875rem;
     }
     .button-order {
-        width: 292px;
-        height: 50px;
-        margin-bottom: 300px;
-        margin-left: -120px;
+        width: 18.25rem;
+        height: 3.125rem;
+        margin-bottom: 18.75rem;
+        margin-left: -7.5rem;
     }
     .user-feedback {
         font-weight: 500;
-        font-size: 18px;
-        line-height: 22px;
-        width: 207px;
-        height: 22px;
-        margin-left: -400px;
+        font-size: 1.125rem;
+        line-height: 1.375rem;
+        width: 12.9375rem;
+        height: 1.375rem;
+        margin-left: -25rem;
     }
     .сustomer-кeviews {
         font-weight: 600;
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
     }
     .user-feedback-mob {
-        font-size: 14px;
-        line-height: 20px;
-        width: 299px;
-        height: 189px;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        width: 18.6875rem;
+        height: 11.8125rem;
         display: flex;
         justify-content: center;
-        margin-left: -87px;
+        margin-left: -5.4375rem;
     }
     .wrapper-for-reviews {
-        min-height: 600px;
+        min-height: 37.5rem;
     }
     .expand-review {
         display: block;
         font-weight: 500;
-        font-size: 16px;
-        margin-left: -90px;
-        width: 160px;
+        font-size: 1rem;
+        margin-left: -5.625rem;
+        width: 10rem;
         line-height: 131.4%;
         border-bottom: 1px solid #333333;
     }
     .date-with-revocation {
-        margin-left: -90px;
-        margin-bottom: 10px;
+        margin-left: -5.625rem;
+        margin-bottom: 0.625rem;
     }
     .user-feedback {
-        margin-left: -90px;
+        margin-left: -5.625rem;
     }
     .revocation-wrapper {
-        margin-bottom: 15px;
+        margin-bottom: 0.9375rem;
     }
     .btn-call-tariffs {
         display: flex;
         justify-content: center;
-        margin-bottom: -40px;
-        margin-left: -10px;
+        margin-bottom: -2.5rem;
+        margin-left: -0.625rem;
     }
 }
