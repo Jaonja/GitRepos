@@ -262,42 +262,18 @@
     line-height: 1.8125rem;
 }
 
-.prices-box-one:hover,
-.prices-box-two:hover,
-.prices-box-three:hover {
+.prices-box:hover {
     box-sizing: border-box;
     box-shadow: 0px 0.75rem 1.5625rem rgba(0, 0, 0, 0.15);
     border: 1px solid #FED100;
 }
 
-.prices-box-one {
+.prices-box {
     display: flex;
     flex-direction: column;
     margin-top: 9rem;
     width: 25%;
     height: 36.1875rem;
-    border: 1px solid #EBEBEB;
-    background-color: #F8FBFF;
-}
-
-.prices-box-two {
-    display: flex;
-    flex-direction: column;
-    margin-top: 9rem;
-    width: 25%;
-    height: 36.1875rem;
-    margin-left: 1.25rem;
-    background-color: #F8FBFF;
-}
-
-.prices-box-three {
-    display: flex;
-    flex-direction: column;
-    margin-top: 9rem;
-    width: 25%;
-    height: 36.1875rem;
-    border: 1px solid #EBEBEB;
-    box-sizing: border-box;
     margin-left: 1.25rem;
     background-color: #F8FBFF;
 }
@@ -630,8 +606,7 @@
     .ifo-help,
     .main-info,
     .prices-info,
-    .prices-box-three,
-    .prices-box-one,
+    .prices-box-mobil,
     .car-park-info,
     .revocation-wrapper-mob-three,
     .revocation-wrapper-mob-one,
@@ -738,14 +713,14 @@
         font-size: 20px;
         line-height: 24px;
     }
-    .prices-box-two {
+    .prices-box {
         margin-top: 0px;
         width: 320px;
         height: 595px;
         margin: 0 0 0 0;
         box-shadow: none;
     }
-    .prices-box-two:hover {
+    .prices-box:hover {
         box-shadow: none;
         border: none;
         box-sizing: none;
