@@ -179,12 +179,12 @@
     text-decoration: none;
 }
 
-
-/* Moving section */
-
 .burger-menu {
     display: none;
 }
+
+
+/* Moving section */
 
 .countent-info {
     margin-left: 0 10%;
@@ -229,7 +229,7 @@
     line-height: 60%;
 }
 
-.number-ico {
+.step-number {
     font-size: 3.125rem;
     font-weight: 300;
     color: #333;
@@ -603,8 +603,6 @@
     .prices-info,
     .prices-box-mobil,
     .car-park-info,
-    .revocation-wrapper-mob-three,
-    .revocation-wrapper-mob-one,
     .btn-call-tariffs,
     .feature-gazel,
     .moving-information,
