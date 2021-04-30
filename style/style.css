@@ -608,7 +608,9 @@
     .moving-information,
     .gazel-info,
     .gazel-img,
-    .button-order {
+    .button-order,
+    .revocation-wrapper-mob-one,
+    .revocation-wrapper-mob-three {
         display: none;
     }
     .wrapper-info {
