@@ -500,7 +500,7 @@
     font-size: 1.875rem;
     line-height: 2.3125rem;
     padding-top: 6.25rem;
-    margin: 1.25rem 0 0 0;
+    margin: 1.25rem 0 3.75rem 0;
 }
 
 .revocation-wrapper {
@@ -534,13 +534,9 @@
 .date-with-revocation::after {
     content: '';
     background-image: url(../img/star.png);
-    width: 76px;
-    height: 17px;
+    width: 4.75rem;
+    height: 1.0625rem;
     position: absolute;
-}
-
-.сustomer-кeviews {
-    margin-bottom: 3.75rem;
 }
 
 .btn-call-tariffs {
@@ -558,8 +554,8 @@
     margin-top: 4.0625rem;
     background-color: #fed100;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
 }
 
 .btn-call-tariffs:hover {
@@ -713,14 +709,13 @@
     .prices-box:hover {
         box-shadow: none;
         border: none;
-        box-sizing: none;
     }
     .prices {
         background-color: #F8FBFF;
     }
     .order-button {
         width: 90%;
-        height: 60px;
+        height: 3.75rem;
         margin-left: 4%;
     }
     .mobil-menu {
@@ -787,6 +782,7 @@
     .car-truck,
     .car-heels {
         border: none;
+        border-bottom: orange;
     }
     .car-gazelle {
         border-top: none;
