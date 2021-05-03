@@ -1,3 +1,5 @@
+/* header section */
+
 .header {
     background-color: #FED100;
 }
@@ -8,7 +10,7 @@
 }
 
 .header-nav {
-    padding-top: 2.9375rem;
+    padding-top: 3.9375rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -33,7 +35,7 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
-    margin-top: 47px;
+    margin-top: 3.9375rem;
 }
 
 .info-title {
@@ -103,31 +105,27 @@
     margin: 0 2.5rem 0 0.25rem;
 }
 
-.logo-man {
+.human-img {
+    position: absolute;
+    right: 16rem;
+    bottom: 0.0625rem;
     z-index: 1;
-    max-width: 23.8125rem;
-    height: 38rem;
-}
-
-.logo-box {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    margin-top: -37.5rem;
-    margin-left: 18.75rem;
+    height: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .man-mob-img {
     display: none;
 }
 
-.logo-car {
+.car-img {
     position: absolute;
-    margin-top: 8.75rem;
-    margin-left: 43.75rem;
+    right: -11.1875rem;
+    bottom: 24%;
+    height: auto;
     z-index: 0;
-    width: 31.1875rem;
-    height: 18.75rem;
 }
 
 .phone-eclipse-one {
@@ -185,6 +183,360 @@
     display: none;
 }
 
+
+/* Moving section */
+
+.countent-info {
+    margin: 0 11%;
+}
+
+.how-does-this-happen {
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 2.3125rem;
+    margin-top: 5.9375rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container-within-formation {
+    display: flex;
+    justify-content: center;
+    margin-top: 5.625rem;
+    margin-right: -12.5rem;
+}
+
+.blocks-with-moving-information {
+    width: 30.25rem;
+}
+
+.moving-information {
+    margin-top: 1.25rem;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.3125rem;
+}
+
+.moving-information-box {
+    display: flex;
+    width: 30%;
+    margin-right: 10%;
+}
+
+.clarification-on-moving {
+    font-weight: 500;
+    font-size: 1.15rem;
+    line-height: 60%;
+}
+
+.step-number {
+    font-size: 3.125rem;
+    font-weight: 300;
+    color: #333;
+    margin: 0px 2.5rem 2.5rem 2.5rem;
+    text-shadow: 0.05rem 0.05rem 0 #FED100;
+}
+
+
+/* servic section */
+
+.service-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 6.5rem;
+}
+
+.prices {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 2.3125rem;
+    line-height: 2.3125rem;
+}
+
+.prices-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.625rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+}
+
+.prices-box:hover {
+    box-sizing: border-box;
+    box-shadow: 0px 0.75rem 1.5625rem rgba(0, 0, 0, 0.15);
+    border: 1px solid #FED100;
+}
+
+.prices-box {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 36.1875rem;
+    background-color: #F8FBFF;
+    margin: 9rem 0 0 1.25rem;
+}
+
+.moving-information-flat {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    text-align: center;
+    margin-top: 5.25rem;
+}
+
+.benefits-of-moving {
+    font-size: 1rem;
+    line-height: 1.3125rem;
+    text-align: center;
+    margin-top: 3.8125rem;
+}
+
+.moving-information-cost {
+    font-size: 1.875rem;
+    line-height: 2.3125rem;
+    text-align: center;
+    margin-top: 3.125rem;
+}
+
+.order-button {
+    width: 50%;
+    height: 3.125rem;
+    text-align: center;
+    background-color: #FED100;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin: 15% 0 0 23%;
+}
+
+.main-container-forprices {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.625rem;
+    justify-content: center;
+}
+
+.order-button:hover {
+    transition: all 0.5s ease;
+    color: #fff;
+    box-shadow: 0px 0.25rem 1.5rem #fed100;
+}
+
+
+/* car park section */
+
+.car-park-box {
+    margin: 0 10%;
+}
+
+.car-park {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 2.3125rem;
+    margin-top: 6.375rem;
+}
+
+.car-park-info {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    margin-top: 0.9375rem;
+}
+
+.car-selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3.75rem;
+}
+
+.car-fleet {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    margin-right: 1.1875rem;
+    width: 12.5625rem;
+    height: 3.125rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.gazel-info {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    color: #333333;
+}
+
+.feature-gazel {
+    font-size: 1rem;
+    line-height: 1.3125rem;
+    margin-top: 1.75rem;
+}
+
+.feature-gazel-list li::before {
+    content: "✓";
+    padding-right: 1rem;
+    font-weight: 700;
+}
+
+.list-inform {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    margin-top: 6.0625rem;
+    width: 50%;
+}
+
+.gazel-inform-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 40%;
+    margin-left: 19%;
+}
+
+.feature-gazel-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    position: relative;
+    width: 50%;
+}
+
+.button-order {
+    width: 50%;
+    height: 13%;
+    text-align: center;
+    background-color: #FED100;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin: 1.875rem 12.5rem 0 0;
+}
+
+.gazel-img {
+    height: auto;
+    max-width: 100%;
+    display: flex;
+    margin: 2.9375rem 10% 0 0;
+    flex-wrap: nowrap;
+}
+
+.button-order:hover {
+    transition: all 0.5s ease;
+    color: #fff;
+    box-shadow: 0px 0.25rem 1.5rem #fed100;
+}
+
+
+/*reviews section */
+
+.reviews {
+    background-color: #FED100;
+    min-height: 41.25rem;
+}
+
+.wrapper-for-reviews {
+    margin: 0 7%;
+}
+
+.сustomer-кeviews {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 2.3125rem;
+    padding-top: 6.25rem;
+    margin: 1.25rem 0 3.75rem 0;
+}
+
+.revocation-wrapper {
+    font-size: 1rem;
+    line-height: 1.3125rem;
+    max-width: 25%;
+    max-height: 100%;
+    text-align: left;
+    margin: 0 3.125rem 0 0;
+}
+
+.block-for-recall {
+    display: flex;
+    justify-content: center;
+    margin: 1.875rem 0 0 0;
+}
+
+.user-feedback {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0 0 0.625rem 0;
+}
+
+.date-with-revocation {
+    font-size: 1rem;
+    line-height: 1.3125rem;
+    margin: 1.25rem 0 0.625rem 0;
+}
+
+.date-with-revocation::after {
+    content: '';
+    background-image: url(../img/star.png);
+    width: 4.75rem;
+    height: 1.0625rem;
+    position: absolute;
+}
+
+.btn-all-reviews {
+    border: 1px solid #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.btn-all-reviews {
+    width: 18.125rem;
+    height: 3.75rem;
+    border: 1px solid #333333;
+    margin-top: 4.0625rem;
+    background-color: #fed100;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+.btn-all-reviews:hover {
+    color: #fff;
+    box-shadow: 0px 0.25rem 1.5rem #fed100;
+}
+
+.expand-review {
+    color: #333333;
+    font-size: 1rem;
+    line-height: 1.3125rem;
+}
+
+.price-mobile,
+.feature-gazel-list-id,
+.mob-gazel,
+.gazel-info-mobil,
+.gazelle-information-mobil,
+.pagination-img-mobil,
+.button-order-mobile {
+    display: none;
+}
+
 @media (max-width: 320px) {
     .wrapper {
         width: 100%;
@@ -198,8 +550,20 @@
     .btn-shadow,
     .man-mob-img,
     .phone-eclipse-one,
-    .logo-man,
-    .logo-car {
+    .human-img,
+    .car-img,
+    .ifo-help,
+    .main-info,
+    .prices-info,
+    .prices-box-mobil,
+    .car-park-info,
+    .btn-call-tariffs,
+    .feature-gazel,
+    .moving-information,
+    .gazel-info,
+    .gazel-img,
+    .button-order,
+    .revocation-wrapper-mob {
         display: none;
     }
     .wrapper-info {
@@ -219,26 +583,23 @@
         justify-content: space-between;
         font-size: 1.75rem;
         line-height: 131.9%;
-        margin-left: 4.125rem;
+        margin: 0 0 0 4.125rem;
     }
     .info-title-two {
         font-weight: 600;
         font-size: 1.125rem;
         line-height: 1.375rem;
-        margin-left: 4.125rem;
         width: 15rem;
-        margin-bottom: 3.75rem;
+        margin: 0 0 3.75rem 4.125rem;
     }
     .wrapper-for-countetn {
-        margin-top: 17rem;
-        margin-left: 0.5625rem;
+        margin: 17rem 0 0 0.625rem;
     }
     .burger-menu {
         display: block;
         width: 2.625rem;
         height: 1.5375rem;
-        margin-top: 1.0975rem;
-        margin-right: 0.625rem;
+        margin: 1.0975rem 0.625rem 0 0;
     }
     .man-mob-img {
         display: block;
@@ -259,5 +620,206 @@
     }
     .btn-block {
         height: 0rem;
+    }
+    .Number-phone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mob-help {
+        font-weight: 300;
+        font-size: 3.125rem;
+        line-height: 3.8125rem;
+        margin: 0 1.25rem 0 0;
+    }
+    .container-within-formation {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .clarification-on-moving {
+        display: flex;
+        font-size: 0.9rem;
+        align-items: center;
+        line-height: 131.4%;
+        width: 11.0625rem;
+        height: 2.625rem;
+        margin-top: 0.6875rem;
+    }
+    .moving-information-box {
+        justify-content: left;
+    }
+    .how-does-this-happen {
+        margin-top: 2.5rem;
+        font-weight: 600;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        margin-bottom: 3.125rem;
+    }
+    .step-number {
+        margin: 2px 0.9rem 2.5rem 2.5rem;
+    }
+    .prices-box {
+        margin-top: 0px;
+        width: 20rem;
+        height: 37.1875rem;
+        margin: 0 0 0 0;
+        box-shadow: none;
+    }
+    .prices-box:hover {
+        box-shadow: none;
+        border: none;
+    }
+    .prices {
+        background-color: #F8FBFF;
+        font-weight: 600;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+    .moving-information-flat {
+        font-weight: 500;
+        font-size: 1.875rem;
+        line-height: 1.375rem;
+    }
+    .moving-information-cost {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .order-button {
+        width: 90%;
+        height: 3.75rem;
+        margin-left: 4%;
+    }
+    .mobil-menu {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .gazel-info-mobil {
+        display: block;
+        margin: 9rem 0 0 9;
+        width: 16.875rem;
+        margin-top: 5.625rem;
+        margin-left: -1.875rem;
+    }
+    .pagination-img-mobil {
+        display: block;
+        width: 30%;
+        height: 7.0625rem;
+        display: flex;
+        margin: 2.5rem 0 0 4.5rem;
+        justify-content: center;
+    }
+    .gazelle-information-mobil {
+        display: block;
+        display: flex;
+        justify-content: center;
+        margin: 1.875rem 3rem 0 0;
+        font-size: 0.75rem;
+        line-height: 0.9375rem;
+    }
+    .button-order-mobile {
+        display: block;
+        width: 14.25rem;
+        font-weight: 500;
+        border: solid 2px;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        background-color: #FED100;
+        margin: 2.5rem -2.0rem 0 0rem;
+    }
+    .price-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 131.4%;
+        margin-top: 0.625rem;
+        color: #333333;
+    }
+    .car-park {
+        margin-top: -0.625rem;
+        font-weight: 600;
+        font-size: 1.5625rem;
+        line-height: 6.1875rem;
+    }
+    .car-selection {
+        margin-top: -1.875rem;
+    }
+    .car-park-box {
+        height: 37.4375rem;
+    }
+    .car-fleet {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        border: none;
+    }
+    .car-gazel-mobil {
+        border-bottom: #FED100 solid;
+    }
+    .feature-gazel {
+        margin-left: 11.875rem;
+    }
+    .button-order {
+        width: 18.25rem;
+        height: 3.125rem;
+        margin-bottom: 18.75rem;
+        margin-left: -7.5rem;
+    }
+    .user-feedback {
+        font-weight: 500;
+        font-size: 1.125rem;
+        line-height: 1.375rem;
+        width: 12.9375rem;
+        height: 1.375rem;
+        margin-left: -25rem;
+    }
+    .сustomer-кeviews {
+        font-weight: 600;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+    .user-feedback-mob {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        width: 18.6875rem;
+        height: 11.8125rem;
+        display: flex;
+        justify-content: center;
+        margin-left: -5.4375rem;
+    }
+    .wrapper-for-reviews {
+        min-height: 37.5rem;
+    }
+    .expand-review {
+        display: block;
+        font-weight: 500;
+        font-size: 1rem;
+        margin-left: -5.625rem;
+        width: 10rem;
+        line-height: 131.4%;
+        border-bottom: 1px solid #333333;
+    }
+    .date-with-revocation {
+        margin-left: -5.625rem;
+        margin-bottom: 0.625rem;
+    }
+    .user-feedback {
+        margin-left: -5.625rem;
+    }
+    .revocation-wrapper {
+        margin-bottom: 0.9375rem;
+    }
+    .btn-all-reviews {
+        display: flex;
+        justify-content: center;
+        margin-bottom: -2.5rem;
+        margin-left: -0.625rem;
     }
 }
