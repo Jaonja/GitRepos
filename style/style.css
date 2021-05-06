@@ -1111,11 +1111,55 @@ footer {
     }
 }
 
-@media (max-width: 940px) {
+@media (max-width: 856px) {
     .human-img,
     .car-img,
-    .phone-eclipse-one {
+    .phone-eclipse-one,
+    .shadow-btn-order,
+    .moving-information {
         display: none;
+    }
+    .tel {
+        margin-left: 0;
+    }
+    .time {
+        margin: 0;
+    }
+    .step-number {
+        margin: 0;
+    }
+    .gazel-img {
+        margin: 0;
+    }
+    .info-title {
+        font-size: 2rem;
+    }
+    .btn-order {
+        margin: 0;
+    }
+    .chekbox-okey {
+        margin: 0;
+    }
+    .additional-services-wrapper {
+        margin: 0;
+    }
+    .location-select {
+        margin: 0;
+    }
+    .payment-method-box {
+        align-items: none;
+    }
+    .choice-of-payment-method {
+        margin: 0;
+    }
+    .time {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 496px) {
+    .box-in-the-card {
+        left: 0;
     }
 }
 
@@ -1512,7 +1556,7 @@ footer {
         margin-top: 2.875rem;
         margin-left: 2.5rem;
     }
-    .footer-mobile-tex {
+    .footer-mobile-privacy {
         display: flex;
         font-weight: 500;
         font-size: 1rem;
@@ -1520,7 +1564,7 @@ footer {
         text-align: center;
         margin-right: 0.625rem;
     }
-    .footer-mobile-text-two {
+    .footer-mobile-privacy-agree {
         font-weight: 500;
         font-size: 1rem;
         line-height: 1.25rem;
