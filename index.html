@@ -178,16 +178,16 @@
     <div class="order-wrapper">
         <div class="order-box">
             <h6>Закажи переезд прямо сейчас со скидной %</h6>
-            <h3 class="mobile-movee-order">Закажи переезд прямо сейчас</h4>
-                <p class="we-will-call-you-back">Мы перезвоним в течении 10 секуд</p>
-                <div class="make-order_info">
-                    <input class="make-order name" type="text" required placeholder="Ваше имя">
-                    <input class="make-order tel" type="tel" required placeholder="Телефон">
-                </div>
-                <div class="make-order-location">
-                    <div class="make-order-location-box">
-                        <p class="specify-the-area">Укажите область</p>
-                        <select class="location__select" name="">
+            <h3 class="mobile-movee-order">Закажи переезд прямо сейчас</h3>
+            <p class="we-will-call-you-back">Мы перезвоним в течении 10 секуд</p>
+            <div class="make-order_info">
+                <input class="make-order name" type="text" required placeholder="Ваше имя">
+                <input class="make-order tel" type="tel" required placeholder="Телефон">
+            </div>
+            <div class="make-order-location">
+                <div class="make-order-location-box">
+                    <p class="specify-the-area">Укажите область</p>
+                    <select class="location-select" name="">
                             <option class="" value="0" disabled selected hidden>Например: Минская</option>
                             <option value="1">Минская</option>
                             <option value="2">Брестская</option>
@@ -196,11 +196,11 @@
                             <option value="5">Витебская</option>
                             <option value="6">Могилевская</option>
                         </select>
-                        <p class="payment-method">Способ оплаты</p>
-                    </div>
-                    <div class="make-order-location-box">
-                        <p class="specify-the-area">Укажите Город</p>
-                        <select class="location__select" name="">
+                    <p class="payment-method">Способ оплаты</p>
+                </div>
+                <div class="make-order-location-box">
+                    <p class="specify-the-area">Укажите Город</p>
+                    <select class="location-select" name="">
                         <option value="1">Мозырь</option>
                         <option value="2">Брест</option>
                         <option value="3">Минск</option>
@@ -208,59 +208,58 @@
                         <option value="5">Витебск</option>
                         <option value="6">Могилев</option>
                 </select>
-                        <input class="add-city" type="text" required placeholder="Добавить город">
-                    </div>
+                    <input class="add-city" type="text" required placeholder="Добавить город">
                 </div>
-                <div class="payment-method-box">
-                    <div class="payment-method-item">
-                        <input type="radio" class="input-radio-payment" id="radiobox_1">
-                        <label class="choice-of-payment-method" for="radiobox_1">Наличными курьеру</label>
-                    </div>
-                    <div class="payment-method-item">
-                        <input type="radio" class="input-radio-payment" id="radiobox_2">
-                        <label class="choice-of-payment-method" for="radiobox_2">Картой курьеру</label>
-                    </div>
-                    <div class="payment-method-item">
-                        <input type="radio" class="input-radio-payment" id="radiobox_3">
-                        <label class="choice-of-payment-method" for="radiobox_3">Банковский перевод</label>
-                    </div>
+            </div>
+            <div class="payment-method-box">
+                <div class="payment-method-item">
+                    <input type="radio" class="input-radio-payment" id="radiobox_1">
+                    <label class="choice-of-payment-method" for="radiobox_1">Наличными курьеру</label>
                 </div>
-                <h5 class="additional-services-text">Дополнительные услуги</h5>
-
-                <div class="additional-services-wrapper">
-                    <div class="additional-services-item">
-                        <input class="cheabox-input" type="checkbox" id="cheackbox_1">
-                        <label class="cheackbox-label" for="cheackbox_1">Вызов замерщика</label>
-                    </div>
-                    <div class="additional-services-item">
-                        <input class="cheabox-input" type="checkbox" id="cheackbox_2">
-                        <label class="cheackbox-label" for="cheackbox_2">Упаковка для хрупких предметов</label>
-                    </div>
-                    <div class="additional-services-item">
-                        <input class="cheabox-input" type="checkbox" id="cheackbox_3">
-                        <label class="cheackbox-label" for="cheackbox_3">Кран</label>
-                    </div>
-                    <div class="additional-services-item">
-                        <input class="cheabox-input" type="checkbox" id="cheackbox_4">
-                        <label class="cheackbox-label" for="cheackbox_4">Сборка мебели</label>
-                    </div>
-                    <div class="additional-services-item">
-                        <input class="cheabox-input" type="checkbox" id="cheackbox_5">
-                        <label class="cheackbox-label" for="cheackbox_5">Крупногабаритные предметы</label>
-                    </div>
+                <div class="payment-method-item">
+                    <input type="radio" class="input-radio-payment" id="radiobox_2">
+                    <label class="choice-of-payment-method" for="radiobox_2">Картой курьеру</label>
                 </div>
-                <div class="time-button-wrapper">
-                    <p class="time">05:37:25</p>
-                    <div class="button-btn-order">
-                        <button class="btn-order">Заказать со скидой</button>
-                        <div class="shadow-btn-order"></div>
-                    </div>
+                <div class="payment-method-item">
+                    <input type="radio" class="input-radio-payment" id="radiobox_3">
+                    <label class="choice-of-payment-method" for="radiobox_3">Банковский перевод</label>
                 </div>
-                <button class="btn-mobile-order">перезвонить</button>
-                <div class="chekbox-okey">
-                    <input type="checkbox" id "cheackbox_5">
-                    <label>Даю согласие на обработку данных</label>
+            </div>
+            <h5 class="additional-services-text">Дополнительные услуги</h5>
+            <div class="additional-services-wrapper">
+                <div class="additional-services-item">
+                    <input class="cheabox-input" type="checkbox" id="cheackbox_1">
+                    <label class="cheackbox-label" for="cheackbox_1">Вызов замерщика</label>
                 </div>
+                <div class="additional-services-item">
+                    <input class="cheabox-input" type="checkbox" id="cheackbox_2">
+                    <label class="cheackbox-label" for="cheackbox_2">Упаковка для хрупких предметов</label>
+                </div>
+                <div class="additional-services-item">
+                    <input class="cheabox-input" type="checkbox" id="cheackbox_3">
+                    <label class="cheackbox-label" for="cheackbox_3">Кран</label>
+                </div>
+                <div class="additional-services-item">
+                    <input class="cheabox-input" type="checkbox" id="cheackbox_4">
+                    <label class="cheackbox-label" for="cheackbox_4">Сборка мебели</label>
+                </div>
+                <div class="additional-services-item">
+                    <input class="cheabox-input" type="checkbox" id="cheackbox_5">
+                    <label class="cheackbox-label" for="cheackbox_5">Крупногабаритные предметы</label>
+                </div>
+            </div>
+            <div class="time-button-wrapper">
+                <p class="time">05:37:25</p>
+                <div class="button-btn-order">
+                    <button class="btn-order">Заказать со скидой</button>
+                    <div class="shadow-btn-order"></div>
+                </div>
+            </div>
+            <button class="btn-mobile-order">перезвонить</button>
+            <div class="chekbox-okey">
+                <input type="checkbox" id="cheackbox_5">
+                <label>Даю согласие на обработку данных</label>
+            </div>
         </div>
         <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1225.3825097941658!2d23.77834254427729!3d52.10220796637626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47210e8ecc2403f1%3A0x5d6ffdcabb18ea86!2z0YPQuy4g0JzQvtGB0LrQvtCy0YHQutCw0Y8gMjgxLCDQkdGA0LXRgdGC!5e0!3m2!1sru!2sby!4v1620162823274!5m2!1sru!2sby"
