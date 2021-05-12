@@ -789,7 +789,7 @@
     appearance: none;
 }
 
-.checkbox-cheack {
+.checkbox-check {
     font-size: 1rem;
     margin-right: 0.625rem;
     padding-left: 1.1875rem;
@@ -799,7 +799,7 @@
     letter-spacing: 0.015em;
 }
 
-.checkbox-cheack::before {
+.checkbox-check::before {
     content: '';
     display: block;
     width: 0.9375rem;
@@ -812,7 +812,7 @@
     z-index: 1;
 }
 
-.checkbox-cheack::after {
+.checkbox-check::after {
     content: "";
     width: 0.9375rem;
     height: 0.9375rem;
@@ -826,13 +826,13 @@
     position: absolute;
 }
 
-.checkbox:checked+.checkbox-cheack::before {
+.checkbox:checked+.checkbox-check::before {
     background: #FFFFFF;
     opacity: 0;
     border-radius: 0.125rem;
 }
 
-.checkbox:checked+.checkbox-cheack::after {
+.checkbox:checked+.checkbox-check::after {
     opacity: 1;
     transform: .2s;
 }
@@ -963,18 +963,18 @@ footer {
     height: 2.625rem;
 }
 
-.footer-nav-list {
+.footer-nav-menu {
     margin-top: 6.0625rem;
 }
 
-.footer-nav-list li {
+.footer-nav-menu li {
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 1.5rem;
     margin-top: 0.9375rem;
 }
 
-.footer-nav-list li:first-child {
+.footer-nav-menu li:first-child {
     margin: 0;
 }
 
@@ -1575,7 +1575,7 @@ footer {
         margin: 0;
     }
     
-    .footer-nav-list {
+    .footer-nav-menu {
         margin: 0 1.875rem 0 0;
         font-weight: 500;
         font-size: 1.25rem;
@@ -1596,6 +1596,10 @@ footer {
         line-height: 130.4%;
         text-align: center;
         margin-right: 0.625rem;
+    }
+    
+    .footer-ifo-block p {
+        margin-bottom: 0;
     }
     
     .footer-mobile-privacy-agree {
