@@ -1,5 +1,3 @@
-/* header section */
-
 .header {
     background-color: #FED100;
 }
@@ -182,9 +180,6 @@
     display: none;
 }
 
-
-/* Moving section */
-
 .countent-info {
     margin: 0 11%;
 }
@@ -230,9 +225,6 @@
     margin: 0px 2.5rem 2.5rem 2.5rem;
     text-shadow: 0.05rem 0.05rem 0 #FED100;
 }
-
-
-/* servic section */
 
 .service-header {
     display: flex;
@@ -318,9 +310,6 @@
     color: #fff;
     box-shadow: 0px 0.25rem 1.5rem #fed100;
 }
-
-
-/* car park section */
 
 .car-park-box {
     margin: 0 10%;
@@ -433,9 +422,6 @@
     color: #fff;
     box-shadow: 0px 0.25rem 1.5rem #fed100;
 }
-
-
-/*reviews section */
 
 .reviews {
     background-color: #FED100;
@@ -687,9 +673,6 @@
     margin-right: 2.35rem;
 }
 
-
-/* radio-method-box*/
-
 .payment-method-item {
     position: relative;
     margin-right: 3.125rem;
@@ -737,9 +720,6 @@
 .input-radio-payment:checked+.choice-of-payment-method::before {
     opacity: 1;
 }
-
-
-/* checkbox additional-services-wrapper*/
 
 .chekbox-data-processing {
     display: flex;
@@ -949,9 +929,6 @@
     width: 1.125rem;
     margin-right: 1.5rem;
 }
-
-
-/*footer*/
 
 footer {
     background-color: #FED100;
