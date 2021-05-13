@@ -176,10 +176,6 @@
     text-decoration: none;
 }
 
-.burger-menu {
-    display: none;
-}
-
 .countent-info {
     margin: 0 11%;
 }
@@ -511,11 +507,13 @@
 .feature-gazel-list-id,
 .mob-gazel,
 .gazel-info-mobil,
+.burger-menu,
 .gazelle-information-mobil,
 .pagination-img-mobil,
 .button-order-mobile,
 .mobile-movee-order,
 .btn-mobile-order,
+.input-radio-payment,
 .footer-mobile-order {
     display: none;
 }
@@ -665,10 +663,6 @@
 .payment-method-item {
     position: relative;
     margin-right: 3.125rem;
-}
-
-.input-radio-payment {
-    display: none;
 }
 
 .choice-of-payment-method {
@@ -831,7 +825,7 @@
     height: 3.125rem;
     border: 1px solid #FED100;
     box-sizing: border-box;
-    position: absolute;
+    position: relative;
     top: -6rem;
     left: 4.6875rem;
     z-index: 1;
@@ -861,10 +855,6 @@
     position: relative;
     margin-top: 3.125rem;
     width: 2%;
-}
-
-.shadow-btn-order {
-    position: relative;
 }
 
 .time {
@@ -1196,11 +1186,9 @@ footer {
         margin: 1.0975rem 0.625rem 0 0;
     }
     .man-mob-img {
-        display: block;
-    }
-    .man-mob-img {
         width: 12.5rem;
         height: 20.5rem;
+        display: block;
         position: absolute;
         top: 59%;
         left: 56%;
@@ -1220,12 +1208,6 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
-    .mob-help {
-        font-weight: 300;
-        font-size: 3.125rem;
-        line-height: 3.8125rem;
-        margin: 0 1.25rem 0 0;
     }
     .container-within-formation {
         margin: 0;
