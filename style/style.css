@@ -525,6 +525,8 @@
     flex-direction: column;
     justify-content: left;
     align-items: center;
+    margin: 0 15%;
+    position: relative;
 }
 
 .order-box h2 {
@@ -534,23 +536,10 @@
     margin-top: 7.75rem;
 }
 
-.additional-services-text {
-    margin-top: 3.75rem;
-    font-weight: bold;
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-    padding-right: 28.125rem;
-}
-
 .call-back-text {
     font-size: 1rem;
     line-height: 1.3125rem;
     margin-top: 0.625rem;
-}
-
-.order-box {
-    margin: 0 15%;
-    position: relative;
 }
 
 .make-order_info {
