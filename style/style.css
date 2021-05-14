@@ -446,19 +446,19 @@
     margin: 1.875rem 0 0 0;
 }
 
-.user-feedback {
+.feedback-user {
     font-weight: 600;
     font-size: 1.5rem;
     margin: 0 0 0.625rem 0;
 }
 
-.date-with-revocation {
+.feedback-date {
     font-size: 1rem;
     line-height: 1.3125rem;
     margin: 1.25rem 0 0.625rem 0;
 }
 
-.date-with-revocation::after {
+.feedback-date::after {
     content: '';
     background-image: url(../img/star.png);
     width: 4.75rem;
@@ -485,7 +485,7 @@
     background-color: #fff;
 }
 
-.expand-review {
+.feedback-full {
     color: #333333;
     font-size: 1rem;
     line-height: 1.3125rem;
@@ -613,7 +613,7 @@
     margin-right: 3.125rem;
 }
 
-.additional-services-item {
+.additional-service {
     display: flex;
     flex-direction: row;
     margin-left: 3.125rem;
@@ -621,7 +621,7 @@
     position: relative;
 }
 
-.additional-services-wrapper {
+.additional-services {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -733,7 +733,7 @@
     opacity: 1;
 }
 
-.time-button-wrapper {
+.discount-time {
     display: flex;
     align-items: center;
     margin-right: 4.375rem;
@@ -842,7 +842,7 @@
     position: relative;
 }
 
-.box-in-the-card {
+.box-with-contacts {
     width: 23rem;
     background: #fff;
     padding: 2.445rem 2.9775rem;
@@ -853,7 +853,7 @@
     transform: translateY(-50%);
 }
 
-.box-in-the-card h3 {
+.box-with-contacts h3 {
     margin-bottom: 2.5rem;
     font-weight: 600;
     font-size: 1.875rem;
@@ -1067,7 +1067,7 @@ footer {
     .chekbox-okey {
         margin: 0;
     }
-    .additional-services-wrapper {
+    .additional-services {
         margin: 0;
     }
     .location-select {
@@ -1086,7 +1086,7 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .box-in-the-card {
+    .box-with-contacts {
         left: 0;
     }
 }
@@ -1122,7 +1122,7 @@ footer {
     .payment-method-box,
     .specify-the-area,
     .additional-services-text,
-    .additional-services-wrapper,
+    .additional-services,
     .location-select,
     .time,
     .payment-method,
@@ -1130,7 +1130,7 @@ footer {
     .order-box h2,
     .city-set,
     .city-add,
-    .time-button-wrapper,
+    .discount-time,
     .social-networks,
     .btn-feedback,
     .footer-back-call a,
@@ -1339,7 +1339,7 @@ footer {
         margin-bottom: 18.75rem;
         margin-left: -7.5rem;
     }
-    .user-feedback {
+    .feedback-user {
         font-weight: 500;
         font-size: 1.125rem;
         line-height: 1.375rem;
@@ -1364,7 +1364,7 @@ footer {
     .wrapper-for-reviews {
         min-height: 37.5rem;
     }
-    .expand-review {
+    .feedback-full {
         display: block;
         font-weight: 500;
         font-size: 1rem;
@@ -1373,13 +1373,11 @@ footer {
         line-height: 131.4%;
         border-bottom: 1px solid #333333;
     }
-    .date-with-revocation {
+    .feedback-date {
         margin-left: -5.625rem;
         margin-bottom: 0.625rem;
     }
-    .user-feedback {
-        margin-left: -5.625rem;
-    }
+    
     .revocation-wrapper {
         margin-bottom: 0.9375rem;
     }
@@ -1438,7 +1436,7 @@ footer {
         width: 20rem;
         height: 32.75rem;
     }
-    .box-in-the-card {
+    .box-with-contacts {
         position: relative;
         top: 0;
         left: 0;
