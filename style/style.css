@@ -412,12 +412,12 @@
     box-shadow: 0px 0.25rem 1.5rem #fed100;
 }
 
-.reviews {
+.feedback {
     background-color: #FED100;
     min-height: 41.25rem;
 }
 
-.wrapper-for-reviews {
+.wrapper-for-feedback {
     margin: 0 7%;
 }
 
@@ -440,7 +440,7 @@
     margin: 0 3.125rem 0 0;
 }
 
-.block-for-recall {
+.block-for-feedback {
     display: flex;
     justify-content: center;
     margin: 1.875rem 0 0 0;
@@ -1361,7 +1361,7 @@ footer {
         justify-content: center;
         margin-left: -5.4375rem;
     }
-    .wrapper-for-reviews {
+    .wrapper-for-feedback {
         min-height: 37.5rem;
     }
     .feedback-full {
