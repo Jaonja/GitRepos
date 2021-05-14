@@ -431,7 +431,7 @@
     margin: 1.25rem 0 3.75rem 0;
 }
 
-.revocation-wrapper {
+.feedback-wrapper {
     font-size: 1rem;
     line-height: 1.3125rem;
     max-width: 25%;
@@ -1117,7 +1117,7 @@ footer {
     .gazel-info,
     .gazel-img,
     .button-order,
-    .revocation-wrapper-mob,
+    .feedback-wrapper-mob,
     .make-order-location-box:first-child,
     .payment-method-box,
     .specify-the-area,
@@ -1136,7 +1136,7 @@ footer {
     .footer-back-call a,
     .social-network,
     .footer-feedback p,
-    .box-in-the-card h3 {
+    .box-with-contacts h3 {
         display: none;
     }
     .wrapper-info {
@@ -1378,7 +1378,7 @@ footer {
         margin-bottom: 0.625rem;
     }
     
-    .revocation-wrapper {
+    .feedback-wrapper {
         margin-bottom: 0.9375rem;
     }
     .btn-all-reviews {
