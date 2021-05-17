@@ -337,6 +337,7 @@
     box-sizing: border-box;
     margin-right: 1.1875rem;
     width: 12.5625rem;
+    cursor: pointer;
     height: 3.125rem;
     justify-content: center;
     display: flex;
