@@ -588,6 +588,7 @@
     flex-direction: row;
     align-items: center;
     margin-left: 3.75rem;
+    margin-right: 5.35rem;
 }
 
 .choice-of-payment-method {
@@ -601,13 +602,26 @@
     font-weight: bold;
     font-size: 1.25rem;
     line-height: 1.5rem;
-    padding-right: 32%;
+    padding-right: 450px;
+}
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    display: none;
 }
 
-.additional-services-text::after {
-    content: url(../img/Vector\ 2.png);
-    margin-left: 0.625rem;
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    
 }
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
+  }
 
 .input-radio-payment {
     margin-right: 3.125rem;
@@ -627,10 +641,6 @@
     flex-wrap: wrap;
     max-width: 56.25rem;
     margin-left: 5.0625rem;
-}
-
-.payment-method-box {
-    margin-right: 2.35rem;
 }
 
 .payment-method-item {
@@ -738,7 +748,6 @@
     align-items: center;
     margin-right: 4.375rem;
     flex-wrap: wrap;
-    width: 50%;
 }
 
 .checkbox {
