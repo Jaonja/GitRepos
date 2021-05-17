@@ -1,6 +1,6 @@
-var timer_life = 20245;
+let timer_life = 20245;
 
-var timer = setInterval(function () {
+let timer = setInterval(function () {
   timer_life -= 1;
 
   if (timer_life == 0) {
