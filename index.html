@@ -120,11 +120,11 @@
       <p class="car-park">Автопарк</p>
       <p class="car-park-info">10 видов автомобилей от 800 кг до 10 тонн</p>
       <div class="car-selection">
-        <p class="car-fleet car-gazel-mobil">Газели</p>
-        <p class="car-fleet">Каблуки</p>
-        <p class="car-fleet">Грузовики</p>
+        <p class="car-fleet car-gazel-mobil" id="gazel">Газели</p>
+        <p class="car-fleet" id="heel">Каблуки</p>
+        <p class="car-fleet" id="truck">Грузовики</p>
       </div>
-      <div class="gazel-inform-box">
+      <div class="gazel-inform-box" id ="boxGazel">
         <div class="list-inform">
           <p class="gazel-info">Газель 3 метра</p>
           <ul class="feature-gazel-list">
@@ -143,6 +143,46 @@
           <button class="button-order-mobile">Заказать</button>
         </div>
         <img src="img/gazell.png" alt="gazell-img" class="gazel-img" />
+      </div>
+      <div class="gazel-inform-box" id="boxHeel" >
+        <div class="list-inform">
+          <p class="gazel-info">Каблук 2 метра</p>
+          <ul class="feature-gazel-list">
+            <li class="feature-gazel">Ширина 1.8 м</li>
+            <li class="feature-gazel">Высота 1.2 м</li>
+            <li class="feature-gazel">Объем 8 м³</li>
+            <li class="feature-gazel">грузоподьемность 0.8 т</li>
+          </ul>
+          <p class="mob-gazel">Газель 3 метра / 1,5 тонны</p>
+          <button class="button-order">Заказать</button>
+        </div>
+        <div class="mobil-menu">
+          <img src="img/gazell.png" alt="gazell-img" class="gazel-info-mobil" />
+          <p class="gazelle-information-mobil">Газель 3 метра / 1,5 тонны</p>
+          <img src="img/pagination.png" alt="pagination-img" class="pagination-img-mobil" />
+          <button class="button-order-mobile">Заказать</button>
+        </div>
+        <img src="img/hel.png" alt="gazell-img" class="gazel-img" />
+      </div>
+      <div class="gazel-inform-box" id="boxTruck">
+        <div class="list-inform">
+          <p class="gazel-info">Грузовик 3 метра</p>
+          <ul class="feature-gazel-list">
+            <li class="feature-gazel">Ширина 3 м</li>
+            <li class="feature-gazel">Высота 3 м</li>
+            <li class="feature-gazel">Объем 20 м³</li>
+            <li class="feature-gazel">грузоподьемность 2 т</li>
+          </ul>
+          <p class="mob-gazel">Газель 3 метра / 1,5 тонны</p>
+          <button class="button-order">Заказать</button>
+        </div>
+        <div class="mobil-menu">
+          <img src="img/gazell.png" alt="gazell-img" class="gazel-info-mobil" />
+          <p class="gazelle-information-mobil">Газель 3 метра / 1,5 тонны</p>
+          <img src="img/pagination.png" alt="pagination-img" class="pagination-img-mobil" />
+          <button class="button-order-mobile">Заказать</button>
+        </div>
+        <img src="img/truck!.png" alt="gazell-img" class="gazel-img" />
       </div>
     </div>
     <div class="feedback">
@@ -254,7 +294,7 @@
           </div>
         </div>
         <div class="discount-time">
-          <p class="time">00:00:00</p>
+          <p class="time">05:37:25</p>
           <div class="wrapper-btn-order">
             <button class="btn-order">Заказать со скидой</button>
             <div class="shadow-btn-order"></div>
@@ -339,6 +379,7 @@
         </div>
       </div>
     </footer>
-    <script src="script/script.js"></script>
+    <script src="script/slider.js"></script>
+    <script src="script/timer.js"></script>
   </body>
 </html>

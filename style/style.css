@@ -1035,6 +1035,13 @@ footer {
 .footer-mobile-order {
     display: none;
 }
+#boxHeel {
+    display: none;
+}
+#boxTruck{
+    display: none;
+}
+
 
 @media (max-width: 856px) {
     .car-img,
