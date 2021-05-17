@@ -747,7 +747,7 @@ i {
 .discount-time {
     display: flex;
     align-items: center;
-    margin-right: 4.375rem;
+    margin-right: 2.375rem;
     flex-wrap: wrap;
 }
 
@@ -757,7 +757,7 @@ i {
 
 .checkbox-check {
     font-size: 1rem;
-    margin-right: 0.625rem;
+    margin-right: -3.625rem;
     padding-left: 1.1875rem;
     font-size: 0.75rem;
     line-height: 0.9375rem;
@@ -845,6 +845,7 @@ i {
     line-height: 131.4%;
     margin-top: 4.5625rem;
     margin-bottom: 6.5625rem;
+    min-width: 400px;
 }
 
 .map {
