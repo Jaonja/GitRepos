@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="reset.css/reset.css" />
     <link rel="stylesheet" href="style/style.css" />
+    <script src="https://yastatic.net/share2/share.js" async></script>
   </head>
-
   <body>
     <section class="header">
       <div class="wrapper">
@@ -213,12 +213,13 @@
     </div>
     <div class="order-wrapper">
       <div class="order-box">
+        <form action="#" method="get" id="orderForm">
         <h2>Закажи переезд прямо сейчас со скидной %</h2>
         <h3 class="mobile-movee-order">Закажи переезд прямо сейчас</h3>
         <p class="call-back-text">Мы перезвоним в течении 10 секуд</p>
         <div class="make-order_info">
-          <input class="user-data name" type="text" required placeholder="Ваше имя" />
-          <input class="user-data tel" type="tel" required placeholder="Телефон" />
+          <input class="user-data name" type="text" required placeholder="Ваше имя" pattern="[а-я]+" title="Только кириллица!">
+          <input class="user-data tel" type="tel" required placeholder="Телефон" pattern="[0-9]+" title="Введите сдесь только цифры!">
         </div>
         <div class="make-order-location">
           <div class="make-order-location-box">
@@ -235,7 +236,7 @@
           </div>
           <div class="make-order-location-box">
             <p class="city-set">Укажите Город</p>
-            <select class="city-select">
+            <select class="city-select" id="select">
               <option value="1">Мозырь</option>
               <option value="2">Брест</option>
               <option value="3">Минск</option>
@@ -243,7 +244,8 @@
               <option value="5">Витебск</option>
               <option value="6">Могилев</option>
             </select>
-            <input class="city-add" type="text" placeholder="Добавить город" />
+            <input class="city-add" type="text" placeholder="Добавить город" id="val">
+            <button onclick="insertValue()">Добавить</button>
           </div>
         </div>
         <p class="payment-method">Способ оплаты</p>
@@ -306,6 +308,7 @@
           <label class="checkbox-check" for="data-processing">Даю согласие на обработку данных</label>
         </div>
       </div>
+    </form>
       <div class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1225.3825097941658!2d23.77834254427729!3d52.10220796637626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47210e8ecc2403f1%3A0x5d6ffdcabb18ea86!2z0YPQuy4g0JzQvtGB0LrQvtCy0YHQutCw0Y8gMjgxLCDQkdGA0LXRgdGC!5e0!3m2!1sru!2sby!4v1620162823274!5m2!1sru!2sby" width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy" class="map-locl"></iframe>
         <div class="box-with-contacts">
@@ -364,12 +367,12 @@
           <a class="footer-mailto" href="mailto:hello@movee.ru">hello@movee.ru</a>
           <p class="footer-social">Поделиться в соц. сетях</p>
           <div class="social-network">
-            <a href="https://vk.com/" target="_blank">
+            <div class="ya-share2" data-services="vkontakte,facebook" data-color-scheme ="blackwhite" data-size = "l"
+            <a href="https://vk.com/share.php?url=file%3A%2F%2F%2FC%3A%2FUsers%2Figrok%2FDocuments%2FGitHub%2FGitRepos%2Findex.html&amp;title=Document&amp;utm_source=share2" rel="nofollow noopener" target="_blank" title="ВКонтакте">
               <img src="img/VK-big.png" alt="VK-big-img" />
+              </div>
             </a>
-            <a href="https://instagram.com/ " target="_blank">
-              <img src="img/faceBig.png" alt="faceBook-img" />
-            </a>
+           
           </div>
         </div>
         <button class="footer-mobile-order">Заказать</button>
@@ -382,5 +385,6 @@
     <script src="script/slider.js"></script>
     <script src="script/additional-servicesHide.js"></script>
     <script src="script/timer.js"></script>
+    <script src="script/selectAdd.js"></script>
   </body>
 </html>

@@ -526,8 +526,8 @@
 .make-order-location {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
+    margin-left: -40px;
 }
 
 .make-order-location-box {
@@ -580,7 +580,7 @@
     font-weight: bold;
     font-size: 1.25rem;
     line-height: 1.5rem;
-    margin-left: -560px;
+    margin-left: 0px;
 }
 
 .payment-method-box {
@@ -588,8 +588,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 3.75rem;
-    margin-right: 5.35rem;
 }
 
 .choice-of-payment-method {
@@ -641,9 +639,8 @@ i {
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 56.25rem;
-    margin-left: 5.0625rem;
+    margin-left: -39px;
 }
-
 .payment-method-item {
     position: relative;
     margin-right: 3.125rem;
@@ -692,7 +689,7 @@ i {
     display: flex;
     margin-top: -8.125rem;
     margin-bottom: 12.5rem;
-    margin-left: 25.625rem;
+    margin-left: 29.625rem;
     position: relative;
 }
 
@@ -753,6 +750,9 @@ i {
 
 .checkbox {
     appearance: none;
+}
+.ya-share2 {
+    margin-left: 10px;
 }
 
 .checkbox-check {

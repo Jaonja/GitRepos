@@ -10,6 +10,7 @@ $additionalServicesHide.addEventListener ("click", function(){
     $upBox.style.display = "inline-block"
     this.style.display = "none"
 })
+
 $upBox.addEventListener ("click", function(){
     $hideBox.style.display = "flex"
     $additionalServicesHide.style.display ="inline-block"
