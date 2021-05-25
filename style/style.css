@@ -1,3 +1,4 @@
+
 .header {
     background-color: #FED100;
 }
@@ -302,6 +303,7 @@
 
 .car-park-box {
     margin: 0 10%;
+    position:relative;
 }
 
 .car-park {
@@ -334,6 +336,7 @@
     font-size: 1.25rem;
     line-height: 1.5rem;
     border: 1px solid #EBEBEB;
+    z-index: 1;
     box-sizing: border-box;
     margin-right: 1.1875rem;
     width: 12.5625rem;
@@ -376,6 +379,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
+    position: relative;
     height: 40%;
     margin-left: 19%;
 }
@@ -405,6 +409,8 @@
     display: flex;
     margin: 2.9375rem 10% 0 0;
     flex-wrap: nowrap;
+    width: 641px;
+    height: 453px;
 }
 
 .button-order:hover {
@@ -605,13 +611,13 @@
 }
 .up {
     transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
-    display: none;
+    -webkit-transform: rotate(-135deg); 
 }
 
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+    display: "inline-block";
     
 }
 i {
@@ -1046,12 +1052,39 @@ footer {
 .footer-mobile-order {
     display: none;
 }
-#boxHeel {
-    display: none;
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    position :absolute;
+    top: 70%;
+   
 }
-#boxTruck{
-    display: none;
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    position:absolute;
+    top: 70%;
+    left: 103%;
 }
+
+.hide {
+display: none!important;
+ animation: tr 03s linear;
+  visibility: hidden;
+  opacity: 0;
+  padding: 0;
+  font-size: 0;
+  margin: 0;
+}
+
+  
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
 
 
 @media (max-width: 856px) {

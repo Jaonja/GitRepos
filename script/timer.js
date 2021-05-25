@@ -1,19 +1,19 @@
-let timer_life = 20245 //секунды в минутах и часах
+let timerLife = 20245 // (5 hour * 60 min *60 sec)
 
 let timer = setInterval(function () {
-  timer_life -= 1
+  timerLife -= 1
 
-  if (timer_life == 0) {
+  if (timerLife === 0) {
     clearInterval(timer)
   }
 
-  let w = Math.trunc(timer_life / 3600),
-    m = Math.trunc((timer_life - w * 3600) / 60),
-    s = Math.trunc(timer_life - (w * 3600 + m * 60))
+  let hour = Math.trunc(timerLife / 3600),
+    min = Math.trunc((timerLife - hour * 3600) / 60),
+    sec = Math.trunc(timerLife - (hour * 3600 + min * 60))
     // когда меньше 10 сек добавляется 0
-    w = w < 10 ? "0" + w : w
-    m = m < 10 ? "0" + m : m
-    s = s < 10 ? "0" + s : s
+    hour = hour < 10 ? "0" + hour : hour
+    min = min < 10 ? "0" + min : min
+    sec = sec < 10 ? "0" + sec : sec
 
-  document.querySelector(".time").innerHTML = w + ":" + m + ":" + s
+  document.querySelector(".time").textContent = hour + ":" + min + ":" + sec
 }, 1000)

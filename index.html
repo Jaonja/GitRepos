@@ -117,12 +117,14 @@
       </div>
     </div>
     <div class="car-park-box">
+        <i class="left"></i><
+        <i class="right"></i>
       <p class="car-park">Автопарк</p>
       <p class="car-park-info">10 видов автомобилей от 800 кг до 10 тонн</p>
       <div class="car-selection">
-        <p class="car-fleet car-gazel-mobil" id="gazel">Газели</p>
-        <p class="car-fleet" id="heel">Каблуки</p>
-        <p class="car-fleet" id="truck">Грузовики</p>
+        <button class="car-fleet car-gazel-mobil" id="gazel">Газели</button>
+        <button class="car-fleet" id="heel">Каблуки</button>
+        <button class="car-fleet" id="truck">Грузовики</button>
       </div>
       <div class="gazel-inform-box" id ="boxGazel">
         <div class="list-inform">
@@ -218,8 +220,8 @@
         <h3 class="mobile-movee-order">Закажи переезд прямо сейчас</h3>
         <p class="call-back-text">Мы перезвоним в течении 10 секуд</p>
         <div class="make-order_info">
-          <input class="user-data name" type="text" required placeholder="Ваше имя" pattern="[а-я]+" title="Только кириллица!">
-          <input class="user-data tel" type="tel" required placeholder="Телефон" pattern="[0-9]+" title="Введите сдесь только цифры!">
+          <input class="user-data name" data-rule="name" type="text" required placeholder="Ваше имя" >
+          <input class="user-data tel"  data-rule="phone" type="tel" required placeholder="Телефон">
         </div>
         <div class="make-order-location">
           <div class="make-order-location-box">
@@ -244,8 +246,7 @@
               <option value="5">Витебск</option>
               <option value="6">Могилев</option>
             </select>
-            <input class="city-add" type="text" placeholder="Добавить город" id="val">
-            <button onclick="insertValue()">Добавить</button>
+            <input class="city-add" type="text" placeholder="Добавить город" id="city-add">
           </div>
         </div>
         <p class="payment-method">Способ оплаты</p>
@@ -272,7 +273,7 @@
             </label>
           </div>
         </div>
-        <h1 class="additional-services-text">Дополнительные услуги<i class="arrow down" id="additionalServicesHide"></i><i class="up" id="upBox"></i></h1>
+        <h1 class="additional-services-text">Дополнительные услуги<i class="arrow down" id="additionalServicesHide"></i></h1>
         <div class="additional-services" id="hideBox">
           <div class="additional-service">
             <input class="additional-services-checkbox" type="checkbox" id="checkbox_call" />
@@ -305,7 +306,7 @@
         <button class="btn-mobile-order">Перезвонить мне</button>
         <div class="chekbox-data-processing">
           <input class="checkbox" type="checkbox" id="data-processing" />
-          <label class="checkbox-check" for="data-processing">Даю согласие на обработку данных</label>
+          <label class="checkbox-check" for="data-processing" id ="apply">Даю согласие на обработку данных</label>
         </div>
       </div>
     </form>
@@ -382,6 +383,7 @@
         </div>
       </div>
     </footer>
+    <script src="script/validator.js"></script>
     <script src="script/slider.js"></script>
     <script src="script/additional-servicesHide.js"></script>
     <script src="script/timer.js"></script>

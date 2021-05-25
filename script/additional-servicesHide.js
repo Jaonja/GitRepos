@@ -1,18 +1,16 @@
 let $additionalServicesHide = document.querySelector ("#additionalServicesHide")
-let $hideBox = document.querySelector("#hideBox")
-let $upBox = document.querySelector("#upBox")
+let $HideBox = document.querySelector ("#hideBox")
 
 
 
 
 $additionalServicesHide.addEventListener ("click", function(){
-    $hideBox.style.display = "none"
-    $upBox.style.display = "inline-block"
-    this.style.display = "none"
+   if ($additionalServicesHide.classList.toggle('up')) {
+       $HideBox.classList.add ('hide')
+   } else {
+    $HideBox.classList.remove('hide')
+   }
+    $additionalServicesHide.classList.toggle ('down')
+    
 })
 
-$upBox.addEventListener ("click", function(){
-    $hideBox.style.display = "flex"
-    $additionalServicesHide.style.display ="inline-block"
-    this.style.display = "none"
-})

@@ -1,10 +1,13 @@
-function insertValue() {
-  let select = document.querySelector ("#select"),
-  txtVal = document.getElementById ("val").value,
-  newOption = document.createElement ("option"),
-  newOptionVal = document.createTextNode(txtVal)
+let cityAdd = document.querySelector("#city-add");
+let selectCity = document.querySelector("#select");
 
-  newOption.appendChild(newOptionVal)
-  select.insertBefore(newOption, select.lastChild)
-}
-//ЭТО ТЕСТОВЫЙ КОД  буду тут дорабатывать и допиывать
+cityAdd.addEventListener("keydown", function (e) {
+  if (e.keyCode == 13) {
+    let newOption = new Option(
+      cityAdd.value,
+      String(selectCity.options.length)
+    );
+    select.append(newOption);
+  }
+});
+
