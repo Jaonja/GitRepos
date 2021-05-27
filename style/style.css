@@ -621,6 +621,7 @@
     display: "inline-block";
     
 }
+
 i {
     border: solid black;
     border-width: 0 3px 3px 0;
@@ -634,7 +635,7 @@ i {
 
 }
 .error{
-    box-shadow: inset 0 0 0rem 0.25rem #ff352b;
+    
 }
 
 .additional-service {

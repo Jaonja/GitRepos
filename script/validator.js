@@ -29,3 +29,4 @@ nameBox.onfocus = function () {
   orderForm.onsubmit = function () {
     validating();
   };
+  console.log (orderForm)

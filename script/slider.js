@@ -8,16 +8,10 @@ let $boxGazel = document.querySelector("#boxGazel")
 let $boxHeel = document.querySelector("#boxHeel")
 let $boxTruck = document.querySelector("#boxTruck")
 
-let gazelInformBox = document.querySelectorAll ('.gazel-inform-box')
- 
-let right = document.querySelector ('.right')
-let left = document.querySelector ('.left')
+$boxHeel.classList.add ('hide')
+$boxTruck.classList.add ('hide')
 
-
-
-
-
-let heel = $heel.addEventListener ('click', function(){
+$heel.addEventListener ('click', function(){
     if ($boxHeel.classList.add('hide') === $boxHeel.classList.add('hide')){
         $boxGazel.classList.add ('hide')
         $boxHeel.classList.remove ('hide')
@@ -25,7 +19,7 @@ let heel = $heel.addEventListener ('click', function(){
   
     }
 })
-let truck = $truck.addEventListener ('click', function(){
+$truck.addEventListener ('click', function(){
     if ($boxTruck.classList.add('hide') === $boxTruck.classList.add('hide')){
         $boxTruck.classList.remove ('hide')
         $boxGazel.classList.add ('hide')
@@ -33,7 +27,7 @@ let truck = $truck.addEventListener ('click', function(){
     }
 })
    
-let gazel = $gazel.addEventListener ('click', function(){
+$gazel.addEventListener ('click', function(){
     if ($boxGazel === $boxGazel){
         $boxTruck.classList.add ('hide')
         $boxGazel.classList.remove ('hide')
@@ -41,7 +35,5 @@ let gazel = $gazel.addEventListener ('click', function(){
     }
 })     
 
-$boxHeel.classList.add ('hide')
-$boxTruck.classList.add ('hide')
 
-console.log (truck)
+
