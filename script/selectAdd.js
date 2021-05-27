@@ -7,7 +7,6 @@ cityAdd.addEventListener("keydown", function (e) {
       cityAdd.value,
       String(selectCity.options.length)
     );
-    select.append(newOption);
+    select.appendChild(newOption);
   }
 });
-

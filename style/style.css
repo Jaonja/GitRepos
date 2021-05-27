@@ -533,7 +533,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: -40px;
+    margin-left: 15px;
 }
 
 .make-order-location-box {
@@ -586,13 +586,14 @@
     font-weight: bold;
     font-size: 1.25rem;
     line-height: 1.5rem;
-    margin-left: 0px;
+    padding-right: 552px;
 }
 
 .payment-method-box {
     margin-top: 2.125rem;
     display: flex;
     flex-direction: row;
+    margin-left: 42px;
     align-items: center;
 }
 
@@ -607,7 +608,7 @@
     font-weight: bold;
     font-size: 1.25rem;
     line-height: 1.5rem;
-    padding-right: 450px;
+    padding-right: 430px;
 }
 .up {
     transform: rotate(-135deg);
@@ -630,6 +631,10 @@ i {
 
 .input-radio-payment {
     margin-right: 3.125rem;
+
+}
+.error{
+    box-shadow: inset 0 0 0rem 0.25rem #ff352b;
 }
 
 .additional-service {
@@ -645,11 +650,11 @@ i {
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 56.25rem;
-    margin-left: -39px;
+    margin-left: 89px;
 }
 .payment-method-item {
     position: relative;
-    margin-right: 3.125rem;
+    margin-right: 70px;
 }
 
 .choice-of-payment-method {
@@ -763,7 +768,7 @@ i {
 
 .checkbox-check {
     font-size: 1rem;
-    margin-right: -3.625rem;
+    margin-right: 1.625rem;
     padding-left: 1.1875rem;
     font-size: 0.75rem;
     line-height: 0.9375rem;
@@ -1109,6 +1114,9 @@ i {
     .gazel-img {
         margin: 0;
     }
+    .human-img{
+        display: none;
+    }
     .info-title {
         font-size: 2rem;
     }
@@ -1442,6 +1450,7 @@ i {
         font-size: 0.9375rem;
         line-height: 131.4%;
         text-align: left;
+        margin-left: 20px;
         width: 18rem;
         height: 0.625rem;
         margin-top: 1.25rem;
@@ -1452,7 +1461,6 @@ i {
         font-size: 1.25rem;
         line-height: 1.5rem;
         text-align: center;
-        width: 13.875rem;
         height: 3rem;
         margin-top: 3.875rem;
     }
@@ -1474,6 +1482,7 @@ i {
     .btn-mobile-order {
         display: flex;
         width: 18.0625rem;
+        margin-left: 20px;
         height: 3.75rem;
         align-items: center;
         background: #FF352B;

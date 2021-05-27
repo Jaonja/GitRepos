@@ -1,13 +1,13 @@
 
-let name = document.querySelector ('.name')
+let nameBox = document.querySelector ('.name')
 let tel = document.querySelector ('.tel')
 let orderForm = document.querySelector ('#orderForm')
 let apply = document.querySelector ('#apply')
 
-console.log (name)
+console.log (nameBox)
 
-name.onfocus = function () {
-    name.classList.remove("error");
+nameBox.onfocus = function () {
+  nameBox.classList.remove("error");
   };
   
   tel.onfocus = function () {
@@ -15,13 +15,13 @@ name.onfocus = function () {
   };
   
   function validating() {
-    name.value == ""
-      ? name.classList.add("error")
-      : name.classList.remove("error");
+    nameBox.value == ""
+      ? nameBox.classList.add("error")
+      : nameBox.classList.remove("error");
       tel.value == ""
       ? tel.classList.add("error")
       : tel.classList.remove("error");
-      name.value == "" || tel.value == "" || !apply.checked
+      nameBox.value == "" || tel.value == "" || !apply.checked
       ? event.preventDefault()
       : form.submit();
   }
