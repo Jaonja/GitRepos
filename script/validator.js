@@ -22,7 +22,7 @@ nameBox.onfocus = function () {
       ? tel.classList.add("error")
       : tel.classList.remove("error");
       nameBox.value == "" || tel.value == "" || !apply.checked
-      ? event.preventDefault()
+      ? preventDefault()
       : form.submit();
   }
   
