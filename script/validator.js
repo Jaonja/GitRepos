@@ -3,8 +3,8 @@ let nameBox = document.querySelector ('.name')
 let tel = document.querySelector ('.tel')
 let orderForm = document.querySelector ('#orderForm')
 let apply = document.querySelector ('#apply')
+let orderButt = document.querySelector ('.btn-order')
 
-console.log (nameBox)
 
 nameBox.onfocus = function () {
   nameBox.classList.remove("error");
@@ -22,11 +22,10 @@ nameBox.onfocus = function () {
       ? tel.classList.add("error")
       : tel.classList.remove("error");
       nameBox.value == "" || tel.value == "" || !apply.checked
-      ? preventDefault()
+      ? event.preventDefault()
       : form.submit();
   }
   
   orderForm.onsubmit = function () {
     validating();
   };
-  console.log (orderForm)
