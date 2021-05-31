@@ -6,24 +6,27 @@ let orderButt = document.querySelector(".btn-order");
 let btnMobileOrder = document.querySelector(".btn-mobile-order");
 
 nameInput.onfocus = function () {
-  nameInput.classList.remove("error");
+  nameInput.classList.remove("iValid");
 };
 phoneInput.onfocus = function () {
-  phoneInput.classList.remove("error");
+  phoneInput.classList.remove("iValid");
 };
 
 function validating() {
   if (nameInput.value.trim() === "" && phoneInput.value.trim() === "") {
-    nameInput.classList.add("error");
-    phoneInput.classList.add("error");
-  }
-  if (apply.checked == true && nameInput.value !== "" && phoneInput.value !== "") {
-    orderForm.submit();
+    nameInput.classList.add("iValid");
+    phoneInput.classList.add("iValid");
   }
   event.preventDefault();
 }
 
+function checkValidating() {
+  if (apply.checked && nameInput.value !== "" && phoneInput.value !== "") {
+    orderForm.submit();
+  }
+}
 
 orderForm.onsubmit = function () {
   validating();
+  checkValidating();
 };
