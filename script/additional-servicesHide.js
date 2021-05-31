@@ -4,13 +4,8 @@ let $HideBox = document.querySelector ("#hideBox")
 
 
 
-$additionalServicesHide.addEventListener ("click", function(){
-   if ($additionalServicesHide.classList.toggle('up')) {
-       $HideBox.classList.add ('hide')
-   } else {
-    $HideBox.classList.remove('hide')
-   }
-    $additionalServicesHide.classList.toggle ('down')
-    
-})
-
+$additionalServicesHide.onclick = function(){
+    $additionalServicesHide.classList.toggle('up');
+    $HideBox.classList.toggle ('hide');
+    $HideBox.classList.toggle ('down');
+ }

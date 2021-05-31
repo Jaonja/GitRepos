@@ -1,31 +1,29 @@
+let nameInput = document.querySelector(".name");
+let phoneInput = document.querySelector(".tel");
+let orderForm = document.querySelector("#orderForm");
+let apply = document.querySelector("#data-processing");
+let orderButt = document.querySelector(".btn-order");
+let btnMobileOrder = document.querySelector(".btn-mobile-order");
 
-let nameBox = document.querySelector ('.name')
-let tel = document.querySelector ('.tel')
-let orderForm = document.querySelector ('#orderForm')
-let apply = document.querySelector ('#apply')
-let orderButt = document.querySelector ('.btn-order')
+nameInput.onfocus = function () {
+  nameInput.classList.remove("error");
+};
+phoneInput.onfocus = function () {
+  phoneInput.classList.remove("error");
+};
 
-
-nameBox.onfocus = function () {
-  nameBox.classList.remove("error");
-  };
-  
-  tel.onfocus = function () {
-    tel.classList.remove("error");
-  };
-  
-  function validating() {
-    nameBox.value == ""
-      ? nameBox.classList.add("error")
-      : nameBox.classList.remove("error");
-      tel.value == ""
-      ? tel.classList.add("error")
-      : tel.classList.remove("error");
-      nameBox.value == "" || tel.value == "" || !apply.checked
-      ? event.preventDefault()
-      : form.submit();
+function validating() {
+  if (nameInput.value.trim() === "" && phoneInput.value.trim() === "") {
+    nameInput.classList.add("error");
+    phoneInput.classList.add("error");
   }
-  
-  orderForm.onsubmit = function () {
-    validating();
-  };
+  if (apply.checked == true && nameInput.value !== "" && phoneInput.value !== "") {
+    orderForm.submit();
+  }
+  event.preventDefault();
+}
+
+
+orderForm.onsubmit = function () {
+  validating();
+};
