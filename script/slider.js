@@ -1,39 +1,40 @@
-let $gazel = document.querySelector("#gazel")
-let $heel = document.querySelector("#heel")
-let $truck = document.querySelector("#truck")
 
+let offset = 0;
+let sliderLine = document.querySelector('.slider-line')
+let nextSlide = document.querySelector('.right')
 
-
-let $boxGazel = document.querySelector("#boxGazel")
-let $boxHeel = document.querySelector("#boxHeel")
-let $boxTruck = document.querySelector("#boxTruck")
-
-$boxHeel.classList.add ('hide')
-$boxTruck.classList.add ('hide')
-
-$heel.addEventListener ('click', function(){
-    if ($boxHeel.classList.add('hide') === $boxHeel.classList.add('hide')){
-        $boxGazel.classList.add ('hide')
-        $boxHeel.classList.remove ('hide')
-        $boxTruck.classList.add('hide')
-  
-    }
+nextSlide.addEventListener('click', function(){
+    SliderLeft()
 })
-$truck.addEventListener ('click', function(){
-    if ($boxTruck.classList.add('hide') === $boxTruck.classList.add('hide')){
-        $boxTruck.classList.remove ('hide')
-        $boxGazel.classList.add ('hide')
-        $boxHeel.classList.add ('hide')
-    }
-})
+
+ 
+
+let prevSlide = document.querySelector('.left')
+    prevSlide.addEventListener('click', function () {
+    Sliderright()
    
-$gazel.addEventListener ('click', function(){
-    if ($boxGazel === $boxGazel){
-        $boxTruck.classList.add ('hide')
-        $boxGazel.classList.remove ('hide')
-        $boxHeel.classList.add ('hide')
+   
+});
+
+function Sliderright(){
+     offset = offset - 1050
+    if (offset < 2400) {
+        offset = 0
     }
-})     
+    sliderLine.style.left = -offset + 'px'
+ 
 
+}
+ function SliderLeft (){ offset = offset + 1050
+    if (offset > 2400) {
+        offset = 0
+    }
+    sliderLine.style.left = -offset + 'px'
+ }
 
+document.querySelectorAll('#positionSlide').forEach(positionSlide => {
+    positionSlide.addEventListener('click', function () {
+        sliderLine.style.left = -this.dataset.position + 'px'
+    })
+})
 
