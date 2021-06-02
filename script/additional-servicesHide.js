@@ -1,15 +1,7 @@
-let arrow = document.querySelector ("#additionalServicesHide")
-let Hide = document.querySelector ("#hideBox")
+let arrow = document.querySelector("#additionalServicesHide");
+let hide = document.querySelector("#hideBox");
 
-
-
-
-arrow.addEventListener ("click", function(){ 
-    if (arrow.classList.toggle('up')) { //это дичь "Denis_kalyanov"
-        Hide.classList.add ('hide')
-    } else {
-     Hide.classList.remove('hide')
-    }
-     arrow.classList.toggle ('down')
- 
- })
+arrow.onclick = function () {
+  arrow.classList.toggle("down");
+  hide.classList.toggle("hide");
+};
