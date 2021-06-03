@@ -1060,20 +1060,20 @@ footer {
 display: none;
 }
 
-  
-}
 .slider-line{
     display: flex;
     position: relative;
     transition: all ease 1s;
     flex-direction: row;
     min-width: 300px;
+    overflow: hidden;
+    
 
 
 }
 .slider {
   overflow: hidden;
-    max-width: 70%;
+    width: 70%;
     height: 500px;
     margin: 20px auto;
     
