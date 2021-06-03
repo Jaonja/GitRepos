@@ -33,7 +33,7 @@ document.querySelector(".left").addEventListener("click", function () {
 });
 
 function rollSlider() {
-  sliderLine.style.transform = "translate(-" + count * width + "px)";
+  sliderLine.style.left = - count * width + "px"; //sliderLine.style.transform = "translate(-" + count * width + "px)"; можно сделать так
 }
 document.querySelectorAll("#positionSlide").forEach((positionSlide) => {
   positionSlide.addEventListener("click", function () {
