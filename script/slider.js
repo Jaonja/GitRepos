@@ -38,7 +38,7 @@ function rollSlider() {
 document.querySelectorAll("#positionSlide").forEach((positionSlide) => {
   positionSlide.addEventListener("click", function () {
     sliderLine.style.left = -this.dataset.position + "px";
-    this.checked.style.borderColor = "red";
+    this.style.borderColor = "red";
   });
 });
 
