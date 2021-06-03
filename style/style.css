@@ -1039,7 +1039,7 @@ footer {
 .footer-mobile-order {
     display: none;
 }
-.left {
+.prevButton {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
     position :absolute;
@@ -1047,7 +1047,7 @@ footer {
     z-index: 10;
    
 }
-.right {
+.nextButton {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     position:absolute;
@@ -1060,16 +1060,13 @@ footer {
 display: none;
 }
 
-.slider-line{
+.sliderWidth {
     display: flex;
     position: relative;
     transition: all ease 1s;
     flex-direction: row;
     min-width: 300px;
     overflow: hidden;
-    
-
-
 }
 .slider {
   overflow: hidden;
