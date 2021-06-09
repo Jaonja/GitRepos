@@ -12,7 +12,7 @@
     <script src="https://yastatic.net/share2/share.js" async></script>
   </head>
   <body>
-    <section class="header">
+    <section class="header" id="header">
       <div class="wrapper">
         <div class="header-nav">
           <a href="#" class="header_logo-link">
@@ -31,10 +31,10 @@
           </div>
           </div>
           <ul class="nav-list">
-            <li><a href="#" class="nav-link">Цены</a></li>
-            <li><a href="#" class="nav-link">Автопарк</a></li>
-            <li><a href="#" class="nav-link">Отзывы</a></li>
-            <li><a href="#" class="nav-link">Контакты</a></li>
+            <li><a href="#prices" class="nav-link">Цены</a></li>
+            <li><a href="#CarPark" class="nav-link">Автопарк</a></li>
+            <li><a href="#feedback" class="nav-link">Отзывы</a></li>
+            <li><a href="#footerFeedback" class="nav-link">Контакты</a></li>
           </ul>
           <a href="tel:8(029)-999-12-13" class="header-phone-info">8(029)-999-12-13</a>
         </div>
@@ -95,7 +95,7 @@
         </div>
       </div>
     </div>
-    <div class="service-header">
+    <div class="service-header" id ='prices'>
       <p class="prices">Цены</p>
       <p class="prices-info">Фиксированная стоимость на переезд под ключ</p>
       <div class="main-container-forprices">
@@ -127,7 +127,7 @@
       </div>
     </div>
     </div>
-    <div class="car-park-box">
+    <div class="car-park-box" id="CarPark">
         <i class="prevButton"></i>
         <i class="nextButton"></i>
       <p class="car-park">Автопарк</p>
@@ -208,7 +208,7 @@
     </div>
      </div>
     </div>
-    <div class="feedback">
+    <div class="feedback" id="feedback">
       <div class="wrapper-for-feedback">
         <h2 class="сustomer-кeviews">Отзывы</h2>
         <div class="block-for-feedback">
@@ -365,13 +365,13 @@
           <p class="footer-mobile-privacy-agree">Соглашение на обработку персональных данных</p>
         </div>
         <ul class="footer-nav-menu">
-          <li><a href="" target="_blank">Главная</a></li>
-          <li><a href="" target="_blank">Цена</a></li>
-          <li><a href="" target="_blank">Автопарк</a></li>
-          <li><a href="" target="_blank">Отзывы</a></li>
-          <li><a href="" target="_blank">Контакты</a></li>
+          <li><a href="#header" target="_blank">Главная</a></li>
+          <li><a href="#prices" target="_blank">Цена</a></li>
+          <li><a href="#CarPark" target="_blank">Автопарк</a></li>
+          <li><a href="#feedback" target="_blank">Отзывы</a></li>
+          <li><a href="#footerFeedback" target="_blank">Контакты</a></li>
         </ul>
-        <div class="footer-feedback">
+        <div class="footer-feedback" id="footerFeedback">
           <div class="footer-ico">
             <a href="https://www.youtube.com/" target="_blank">
               <img src="img/youtube.png" alt="youtube.png-img" />
@@ -394,7 +394,6 @@
               <img src="img/VK-big.png" alt="VK-big-img" />
               </div>
             </a>
-           
           </div>
         </div>
         <button class="footer-mobile-order">Заказать</button>
