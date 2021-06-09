@@ -1072,7 +1072,7 @@ footer {
   overflow: hidden;
 }
 
-.iValid {
+.invalid {
   box-shadow: inset 0 0 0rem 0.25rem #ff2b2b;
   transition: all ease 2s;
 }

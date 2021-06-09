@@ -1,13 +1,13 @@
 const slider = document.querySelectorAll(".gazel-inform-box");
 const sliderWidth = document.querySelector(".sliderWidth");
 let count = 0;
-let Width;
+let itemWidth;
 
 function init() {
-  Width = document.querySelector(".slider ").offsetWidth;
-  sliderWidth.style.width = Width * slider.length + "px";
+  itemWidth = document.querySelector(".slider ").offsetWidth;
+  sliderWidth.style.width = itemWidth * slider.length + "px";
   slider.forEach((item) => {
-    item.style.width = Width + "px";
+    item.style.width = itemWidth + "px";
     item.style.height = "auto";
   });
   rollSlider();
@@ -32,7 +32,7 @@ document.querySelector(".prevButton").addEventListener("click", function () {
 });
 
 function rollSlider() {
-  sliderWidth.style.transform = "translate(-" + count * Width + "px)";
+  sliderWidth.style.transform = "translate(-" + count * itemWidth + "px)";
 }
 
 //mobil

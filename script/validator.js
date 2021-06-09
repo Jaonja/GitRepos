@@ -6,16 +6,16 @@ let orderButt = document.querySelector(".btn-order");
 let btnMobileOrder = document.querySelector(".btn-mobile-order");
 
 nameInput.onfocus = function () {
-  nameInput.classList.remove("iValid");
+  nameInput.classList.remove("invalid");
 };
 phoneInput.onfocus = function () {
-  phoneInput.classList.remove("iValid");
+  phoneInput.classList.remove("invalid");
 };
 
 function validating() {
   if (nameInput.value.trim() === "" && phoneInput.value.trim() === "") {
-    nameInput.classList.add("iValid");
-    phoneInput.classList.add("iValid");
+    nameInput.classList.add("invalid");
+    phoneInput.classList.add("invalid");
   }
   event.preventDefault();
 }
