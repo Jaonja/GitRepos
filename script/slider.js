@@ -53,6 +53,33 @@ document.querySelector("#nextSliderMob").addEventListener("click", function () {
 
 document.querySelectorAll("#positionSlide").forEach((positionSlide) => {
   positionSlide.addEventListener("click", function () {
-    sliderWidth.style.left = -this.dataset.position + "px";
+    sliderWidth.style.left = -this.dataset.position + "px"
   });
 });
+
+let gazel =  document.querySelector('.gazel')
+gazel.addEventListener('click', function(){
+this.classList.add ('color')
+console.log (gazel)
+heel.classList.remove ('color')
+truck.classList.remove ('color')
+
+
+
+})
+let heel = document.querySelector('.heel')
+heel.addEventListener('click', function(){
+  this.classList.add ('color')
+  gazel.classList.remove ('color')
+  truck.classList.remove ('color')
+  
+
+})
+let truck =  document.querySelector('.truck')
+truck.addEventListener('click', function(){
+  console.log (truck)
+  this.classList.add ('color')
+  heel.classList.remove ('color')
+  gazel.classList.remove ('color')
+  
+})

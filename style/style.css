@@ -1058,6 +1058,7 @@ footer {
 
 .hide {
   display: none;
+
 }
 
 .sliderWidth {
@@ -1066,12 +1067,14 @@ footer {
   transition: all ease 1s;
   flex-direction: row;
   overflow: hidden;
+
 }
 .slider {
-  width: 70%;
+  width: 90%;
   height: 500px;
   margin: 20px auto;
   overflow: hidden;
+
 }
 
 .invalid {
@@ -1096,6 +1099,10 @@ i {
   transition: all ease 0.9s;
   margin-left: 5px;
 }
+.color {
+    border-color: chartreuse;
+}
+
 @media (max-width: 460px) {
 }
 
@@ -1605,7 +1612,7 @@ i {
   }
   .slider {
     overflow: hidden;
-    width: 320px;
+    width: 280px;
   }
 
   .car-mob {
@@ -1627,5 +1634,8 @@ i {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+  }
+  .car-park-box {
+      margin: 0;
   }
 }
