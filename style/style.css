@@ -404,13 +404,9 @@
 }
 
 .gazel-img {
-  height: auto;
-  width: 100%;
-  display: flex;
+  width: 60%;
   margin: 2.9375rem 10% 0 0;
-  flex-wrap: nowrap;
-  width: 641px;
-  height: 453px;
+ 
 }
 
 .button-order:hover {
@@ -1062,19 +1058,17 @@ footer {
 }
 
 .sliderWidth {
-  display: flex;
-  position: relative;
-  transition: all ease 1s;
-  flex-direction: row;
-  overflow: hidden;
-
+  width: 1024px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
 }
 .slider {
-  width: 90%;
-  height: 500px;
+  max-width: 80%;
   margin: 20px auto;
   overflow: hidden;
-
+}
 }
 
 .invalid {
@@ -1568,19 +1562,11 @@ i {
   }
   .mobilV {
     display: flex;
-    width: 321px;
+    width: 80%;
     height: 227px;
     margin-right: 20px;
   }
-  .mob-slider {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    padding-left: 460px;
-    overflow: hidden;
-    transition: 1s;
-  }
-
+  
   .mob-bit:hover {
     transition: 1s;
     background-color: chartreuse;
@@ -1605,28 +1591,24 @@ i {
     bottom: 20%;
     left: 40%;
   }
-  .mobil-menu {
+  .sliderMob {
     display: flex;
     position: relative;
-  }
-  .slider {
     overflow: hidden;
-    width: 280px;
+    max-width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    
+  }
+ 
+  .sliderWidthMob {
+    width: 1024px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
   }
 
-  .car-mob {
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.25rem;
-    border: none;
-    box-sizing: border-box;
-    width: 12.5625rem;
-    cursor: pointer;
-    height: 3.125rem;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-  }
   .countent-info {
     margin: 0 11%;
     display: flex;
