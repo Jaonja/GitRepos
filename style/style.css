@@ -528,7 +528,6 @@
 .make-order-location {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   margin-left: 15px;
 }
 
@@ -1097,7 +1096,11 @@ i {
     border-color: chartreuse;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 1164px) {
+  .additional-services{
+    margin: 0;
+  }
+
 }
 
 @media (max-width: 1024px) {
