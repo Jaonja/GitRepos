@@ -25,16 +25,61 @@ function rollSliderMob() {
 let firstBall = document.querySelector("#prevSlideOne");
 firstBall.addEventListener("click", function () {
   count = 0;
+  if (count === 0) {
+    gazel.classList.add("color");
+    heel.classList.remove("color");
+    truck.classList.remove("color");
+  }
+  if (count === 1) {
+    heel.classList.add("color");
+    gazel.classList.remove("color");
+    truck.classList.remove("color");
+  }
+  if (count === 2) {
+    truck.classList.add("color");
+    heel.classList.remove("color");
+    gazel.classList.remove("color");
+  }
   rollSliderMob();
 });
 let twoBall = document.querySelector("#nextSliderTwo");
 twoBall.addEventListener("click", function () {
   count = 1;
+  if (count === 0) {
+    gazel.classList.add("color");
+    heel.classList.remove("color");
+    truck.classList.remove("color");
+  }
+  if (count === 1) {
+    heel.classList.add("color");
+    gazel.classList.remove("color");
+    truck.classList.remove("color");
+  }
+  if (count === 2) {
+    truck.classList.add("color");
+    heel.classList.remove("color");
+    gazel.classList.remove("color");
+  }
   rollSliderMob();
 });
 let threetBall = document.querySelector("#nextSliderThree");
 threetBall.addEventListener("click", function () {
   count = 2;
+  if (count === 0) {
+    gazel.classList.add("color");
+    heel.classList.remove("color");
+    truck.classList.remove("color");
+  }
+  if (count === 1) {
+    heel.classList.add("color");
+    gazel.classList.remove("color");
+    truck.classList.remove("color");
+  }
+  if (count === 2) {
+    truck.classList.add("color");
+    heel.classList.remove("color");
+    gazel.classList.remove("color");
+  }
   rollSliderMob();
 });
 
