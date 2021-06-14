@@ -16,7 +16,7 @@ function initMob() {
   rollSliderMob();
 }
 
-initMob()
+initMob();
 window.addEventListener("resize", initMob);
 function rollSliderMob() {
   sliderWidthMob.style.transform = "translate(-" + count * itemWidth + "px)";
@@ -146,7 +146,6 @@ function rollSlider() {
   sliderWidth.style.transform = "translate(-" + count * itemWidth + "px)";
 }
 
-console.log(count);
 let gazel = document.querySelector(".gazel");
 gazel.addEventListener("click", function () {
   count = 0;
