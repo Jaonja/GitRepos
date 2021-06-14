@@ -9,28 +9,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="reset.css/reset.css" />
     <link rel="stylesheet" href="style/style.css" />
+    <script src="https://yastatic.net/share2/share.js" async></script>
   </head>
-
   <body>
-    <section class="header">
+    <section class="header" id="header">
       <div class="wrapper">
         <div class="header-nav">
           <a href="#" class="header_logo-link">
-            <img src="img/MOVEE.png" alt="MOVEE-img" class="header_logo-pic" />
+            <img src="img/MOVEE.png" alt="MOVEE-img" class="header_logo-pic">
           </a>
-          <img src="img/menuBurger.png" alt="menuBurger-img" class="burger-menu" />
+          <div class="header-mob-box">
+            <div class="mob-first-section-img">
+              <img src="img/MOVEE.png" alt="MOVEE-img" class="movee-mob">
+              <img src="img/menuBurger.png" alt="menuBurger-img" class="burger-menu">
+            </div>
+          <div class="mob-first-section">
+          <h1 class="info-title-mob">Квартирные<br />перeезды</h1>
+          <h2 class="info-title-two-mob">По Бресту и области</h2>
+          <img src="img/Hum.png" alt="man-img" class="man-mob-img">
+          <button class="first-section-mob-btn">Заказать</button>
+          </div>
+          </div>
           <ul class="nav-list">
-            <li><a href="#" class="nav-link">Цены</a></li>
-            <li><a href="#" class="nav-link">Автопарк</a></li>
-            <li><a href="#" class="nav-link">Отзывы</a></li>
-            <li><a href="#" class="nav-link">Контакты</a></li>
+            <li><a href="#prices" class="nav-link">Цены</a></li>
+            <li><a href="#CarPark" class="nav-link">Автопарк</a></li>
+            <li><a href="#feedback" class="nav-link">Отзывы</a></li>
+            <li><a href="#footerFeedback" class="nav-link">Контакты</a></li>
           </ul>
           <a href="tel:8(029)-999-12-13" class="header-phone-info">8(029)-999-12-13</a>
         </div>
         <div class="wrapper-info">
           <h1 class="info-title">Квартирные<br />перeезды</h1>
           <h2 class="info-title-two">По Бресту и области</h2>
-          <img src="img/Hum.png" alt="man-img" class="man-mob-img" />
           <div class="wrapper-for-countetn">
             <div class="btn-block">
               <button class="btn">Заказать</button>
@@ -43,8 +53,8 @@
             </div>
           </div>
         </div>
-        <img src="img/hum.png" class="human-img" alt="hum-img" />
-        <img src="img/car.png" class="car-img" alt="car-img" />
+        <img src="img/Hum.png" class="human-img" alt="hum-img">
+        <img src="img/car.png" class="car-img" alt="car-img">
         <div class="phone-eclipse-one">
           <a href="tel:8(029)-999-12-13" class="phone-eclipse-two"></a>
         </div>
@@ -85,7 +95,7 @@
         </div>
       </div>
     </div>
-    <div class="service-header">
+    <div class="service-header" id ='prices'>
       <p class="prices">Цены</p>
       <p class="prices-info">Фиксированная стоимость на переезд под ключ</p>
       <div class="main-container-forprices">
@@ -116,16 +126,37 @@
         </div>
       </div>
     </div>
-    <div class="car-park-box">
+    </div>
+    <div class="car-park-box" id="CarPark">
+        <i class="prevButton"></i>
+        <i class="nextButton"></i>
       <p class="car-park">Автопарк</p>
       <p class="car-park-info">10 видов автомобилей от 800 кг до 10 тонн</p>
-      <div class="car-selection">
-        <p class="car-fleet car-gazel-mobil">Газели</p>
-        <p class="car-fleet">Каблуки</p>
-        <p class="car-fleet">Грузовики</p>
+      <div class="car-selection" id="carSelection">
+        <p class="car-fleet gazel" id="positionSlide">Газели</p>
+        <p class="car-fleet heel" id="positionSlide">Каблуки</p>
+        <p class="car-fleet truck" id="positionSlide">Грузовики</p>
       </div>
-      <div class="gazel-inform-box">
-        <div class="list-inform">
+      <div class="sliderMob">
+        <div class="sliderWidthMob">
+        <div class="mobil-gazel-box">
+        <img src="img/gazell.png" alt="gazell-img" class="gazel-img mobilV">
+        <p class="gazelle-information-mobil">Газель 3 метра / 1,5 тонны</p>
+      </div>
+        <div class="mobil-gazel-box">
+        <img src="img/hel.png" alt="gazell-img" class="gazel-img mobilV">
+        <p class="gazelle-information-mobil">Каблук 2 метра / 0,8 тонны</p>
+      </div>
+      <div class="mobil-gazel-box">
+        <img src="img/truck!.png" alt="gazell-img" class="gazel-img mobilV">
+        <p class="gazelle-information-mobil">Грузовик 3 метра / 2 тонны</p>
+      </div>
+      </div>
+      </div>
+      <div class="slider">
+      <div class="sliderWidth">
+       <div class="gazel-inform-box" id ="boxGazel">
+         <div class="list-inform">
           <p class="gazel-info">Газель 3 метра</p>
           <ul class="feature-gazel-list">
             <li class="feature-gazel">Ширина 2 м</li>
@@ -136,16 +167,47 @@
           <p class="mob-gazel">Газель 3 метра / 1,5 тонны</p>
           <button class="button-order">Заказать</button>
         </div>
-        <div class="mobil-menu">
-          <img src="img/gazell.png" alt="gazell-img" class="gazel-info-mobil" />
-          <p class="gazelle-information-mobil">Газель 3 метра / 1,5 тонны</p>
-          <img src="img/pagination.png" alt="pagination-img" class="pagination-img-mobil" />
-          <button class="button-order-mobile">Заказать</button>
-        </div>
+      
         <img src="img/gazell.png" alt="gazell-img" class="gazel-img" />
       </div>
+      <div class="gazel-inform-box" id="boxHeel" >
+        <div class="list-inform">
+          <p class="gazel-info">Каблук 2 метра</p>
+          <ul class="feature-gazel-list">
+            <li class="feature-gazel">Ширина 1.8 м</li>
+            <li class="feature-gazel">Высота 1.2 м</li>
+            <li class="feature-gazel">Объем 8 м³</li>
+            <li class="feature-gazel">грузоподьемность 0.8 т</li>
+          </ul>
+          <p class="mob-gazel">Газель 3 метра / 1,5 тонны</p>
+          <button class="button-order">Заказать</button>
+        </div>
+        <img src="img/hel.png" alt="gazell-img" class="gazel-img" />
+      </div>
+      <div class="gazel-inform-box" id="boxTruck">
+        <div class="list-inform">
+          <p class="gazel-info">Грузовик 3 метра</p>
+          <ul class="feature-gazel-list">
+            <li class="feature-gazel">Ширина 3 м</li>
+            <li class="feature-gazel">Высота 3 м</li>
+            <li class="feature-gazel">Объем 20 м³</li>
+            <li class="feature-gazel">грузоподьемность 2 т</li>
+          </ul>
+          <p class="mob-gazel">Каблук 3 метра / 1,5 тонны</p>
+          <button class="button-order">Заказать</button>
+        </div>
+        <img src="img/truck!.png" alt="gazell-img" class="gazel-img" />
+        </div>
+      </div>
+     </div>
+     <div class="ball-mob">
+      <div class="mob-bit" id="prevSlideOne"></div>
+      <div  class="mob-bit" id="nextSliderTwo"></div>
+      <div  class="mob-bit" id="nextSliderThree"></div>
     </div>
-    <div class="feedback">
+     </div>
+    </div>
+    <div class="feedback" id="feedback">
       <div class="wrapper-for-feedback">
         <h2 class="сustomer-кeviews">Отзывы</h2>
         <div class="block-for-feedback">
@@ -172,13 +234,13 @@
       </div>
     </div>
     <div class="order-wrapper">
-      <div class="order-box">
+      <form class="order-box" form action="#" method="get" id="orderForm">
         <h2>Закажи переезд прямо сейчас со скидной %</h2>
         <h3 class="mobile-movee-order">Закажи переезд прямо сейчас</h3>
         <p class="call-back-text">Мы перезвоним в течении 10 секуд</p>
         <div class="make-order_info">
-          <input class="user-data name" type="text" required placeholder="Ваше имя" />
-          <input class="user-data tel" type="tel" required placeholder="Телефон" />
+          <input class="user-data name" type="text" placeholder="Ваше имя" >
+          <input class="user-data tel" type="tel" placeholder="Телефон">
         </div>
         <div class="make-order-location">
           <div class="make-order-location-box">
@@ -195,7 +257,7 @@
           </div>
           <div class="make-order-location-box">
             <p class="city-set">Укажите Город</p>
-            <select class="city-select">
+            <select class="city-select" id="select">
               <option value="1">Мозырь</option>
               <option value="2">Брест</option>
               <option value="3">Минск</option>
@@ -203,7 +265,7 @@
               <option value="5">Витебск</option>
               <option value="6">Могилев</option>
             </select>
-            <input class="city-add" type="text" placeholder="Добавить город" />
+            <input class="city-add" type="text" placeholder="Добавить город" id="city-add">
           </div>
         </div>
         <p class="payment-method">Способ оплаты</p>
@@ -230,8 +292,8 @@
             </label>
           </div>
         </div>
-        <h1 class="additional-services-text">Дополнительные услуги</h1>
-        <div class="additional-services">
+        <h1 class="additional-services-text">Дополнительные услуги<i class="arrow" id="additionalServicesHide"></i></h1>
+        <div class="additional-services" id="hideBox">
           <div class="additional-service">
             <input class="additional-services-checkbox" type="checkbox" id="checkbox_call" />
             <label class="additional-services-label" for="checkbox_call">Вызов замерщика</label>
@@ -254,18 +316,20 @@
           </div>
         </div>
         <div class="discount-time">
-          <p class="time">00:00:00</p>
+          <p class="time">05:37:25</p>
           <div class="wrapper-btn-order">
-            <button class="btn-order">Заказать со скидой</button>
+            <button type="submit" class="btn-order">Заказать со скидой</button>
             <div class="shadow-btn-order"></div>
           </div>
         </div>
-        <button class="btn-mobile-order">Перезвонить мне</button>
+        <button type="submit" class="btn-mobile-order">Перезвонить мне</button>
         <div class="chekbox-data-processing">
-          <input class="checkbox" type="checkbox" id="data-processing" />
+          <input class="checkbox" type="checkbox" id="data-processing" >
           <label class="checkbox-check" for="data-processing">Даю согласие на обработку данных</label>
         </div>
+      </form>
       </div>
+    </form>
       <div class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1225.3825097941658!2d23.77834254427729!3d52.10220796637626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47210e8ecc2403f1%3A0x5d6ffdcabb18ea86!2z0YPQuy4g0JzQvtGB0LrQvtCy0YHQutCw0Y8gMjgxLCDQkdGA0LXRgdGC!5e0!3m2!1sru!2sby!4v1620162823274!5m2!1sru!2sby" width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy" class="map-locl"></iframe>
         <div class="box-with-contacts">
@@ -300,13 +364,13 @@
           <p class="footer-mobile-privacy-agree">Соглашение на обработку персональных данных</p>
         </div>
         <ul class="footer-nav-menu">
-          <li><a href="" target="_blank">Главная</a></li>
-          <li><a href="" target="_blank">Цена</a></li>
-          <li><a href="" target="_blank">Автопарк</a></li>
-          <li><a href="" target="_blank">Отзывы</a></li>
-          <li><a href="" target="_blank">Контакты</a></li>
+          <li><a href="#header" target="_blank">Главная</a></li>
+          <li><a href="#prices" target="_blank">Цена</a></li>
+          <li><a href="#CarPark" target="_blank">Автопарк</a></li>
+          <li><a href="#feedback" target="_blank">Отзывы</a></li>
+          <li><a href="#footerFeedback" target="_blank">Контакты</a></li>
         </ul>
-        <div class="footer-feedback">
+        <div class="footer-feedback" id="footerFeedback">
           <div class="footer-ico">
             <a href="https://www.youtube.com/" target="_blank">
               <img src="img/youtube.png" alt="youtube.png-img" />
@@ -324,11 +388,10 @@
           <a class="footer-mailto" href="mailto:hello@movee.ru">hello@movee.ru</a>
           <p class="footer-social">Поделиться в соц. сетях</p>
           <div class="social-network">
-            <a href="https://vk.com/" target="_blank">
+            <div class="ya-share2" data-services="vkontakte,facebook" data-color-scheme ="blackwhite" data-size = "l"
+            <a href="https://vk.com/share.php?url=file%3A%2F%2F%2FC%3A%2FUsers%2Figrok%2FDocuments%2FGitHub%2FGitRepos%2Findex.html&amp;title=Document&amp;utm_source=share2" rel="nofollow noopener" target="_blank" title="ВКонтакте">
               <img src="img/VK-big.png" alt="VK-big-img" />
-            </a>
-            <a href="https://instagram.com/ " target="_blank">
-              <img src="img/faceBig.png" alt="faceBook-img" />
+              </div>
             </a>
           </div>
         </div>
@@ -339,6 +402,10 @@
         </div>
       </div>
     </footer>
-    <script src="script/script.js"></script>
+    <script src="script/validator.js"></script>
+    <script src="script/slider.js"></script>
+    <script src="script/additional-servicesHide.js"></script>
+    <script src="script/timer.js"></script>
+    <script src="script/selectAdd.js"></script>
   </body>
 </html>
