@@ -1096,7 +1096,7 @@ i {
     border-color: chartreuse;
 }
 
-@media (width: 1565) {
+@media (max-width: 1565px) {
   .human-img{
     display: none;
   }
